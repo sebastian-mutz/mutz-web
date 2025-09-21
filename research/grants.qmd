@@ -1,0 +1,51 @@
+---
+title: "Funded Projects"
+---
+
+# RainX
+
+Many urgent issues related to climate change, such as flooding, mass wasting, and water quality, are closely tied to rainfall extremes. Reliable predictions of extremes are, therefore, critical for risk management. Prediction of extremes, which is one of the main focuses of extreme value theory, is still considered one of the grand challenges by the World Climate Research Programme. This project will address this challenge by developing novel statistical, computationally efficient models that are able to predict rainfall extremes from the output of GPU-optimised climate models.
+
+| Funder | Duration | Status |
+| :--: | :--: | :--: |
+| NERC | 3.5 years | ongoing |
+
+# ExaGEO
+
+The ExaGEO doctoral training programme delivers the next generation of Earth and environmental scientists trained in exascale computing. ExaGEO is a holistic and multidisciplinary program targeting excellence in both the technical skills required for the development and application of software and multidisciplinary ‘domain’ training in the complexity of simulated Earth system processes. You can find more information [here](https://www.exageo.org).
+
+| Funder | Duration | Status |
+| :--: | :--: | :--: |
+| NERC | 5 years | ongoing |
+
+# GECO-21
+
+Glaciers are rich in microorganisms that are specialised to the challenging conditions that they live in; they have crucial roles to play in local nutrient cycling, and global atmospheric and oceanic processes; but almost nothing is known about what happens to glacial microorganisms when they are flushed downstream. GECO-21 (Glacial Ecology Changes in the 21<sup>st</sup> Century) addresses the question "How will glacial environments function when the glaciers are gone?"
+
+| Funder | Duration | Status |
+| :--: | :--: | :--: |
+| NERC | 1+ years | ongoing |
+
+# QTiP
+
+The BMBF research program “Central Asia: Monsoon dynamics and geoecosystems” and the project “Tipping points in the climate system and their consequences for Central Asia” focus on current research questions in the areas of climate change, geodynamics and georesources (including water) in interdisciplinary projects in international cooperation. An integrative systems approach is pursued here. The joint projects are to be understood as the German contribution to the large international R&D program "Third Pole Environment" (TPE) initiated by China, in which numerous nations are participating. The projects thus complement and integrate ongoing international and national geoscientific research projects in this region.
+
+| Funder | Duration | Status |
+| :--: | :--: | :--: |
+| BMBF | 3 years | completed |
+
+# REAL
+
+REAL is part of the priority programme 4DMB (4D Mountain Building) and focuses on reconstructing eastward propagation of surface uplift in the Alps by combining stable isotope palaeoaltimetry and clumped isotope (Δ47) derived temperature reconstructions with isotope-enabled General Circulation Models (GCMs).
+
+| Funder | Duration | Status |
+| :--: | :--: | :--: |
+| DFG | 3 years | completed |
+
+# APE
+
+The Alps Palaeoelevation/-climate Experiment (APE) is part of the priority programme 4DMB (4D Mountain Building). If focuses on Neogene paleoelevation and paleoclimate of the Central Alps. It aims at linking Earth Surface Processes to Lithospheric Dynamics by applying a novel approach to palaeoaltimetry, utilising climate models and stable isotope palaeoaltimetry.
+
+| Funder | Duration | Status |
+| :--: | :--: | :--: |
+| DFG | 3 years | completed |

@@ -1,0 +1,101 @@
+---
+title: "University of Glasgow"
+---
+
+## Theoretical and Applied Climatology (EARTH5019)
+
+::: columns
+::: {.column width="20%"}
+![](img/tacTiles_ccby_SebastianMutz.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="80%"}
+**Description** --
+The course provides an introduction to fundamental aspects of theoretical and applied climatology. This is complemented by an introduction to coding, practical statistics, machine learning, and computational modelling. See more details [here](https://www.gla.ac.uk/coursecatalogue/course/?code=EARTH5019).
+
+| Programme | Level | Semester | Language |
+| :--------: | :--: | :--: | :---: |
+| [Climate and Environmental Science MSc](https://www.gla.ac.uk/postgraduate/taught/climateenvironmentalscience/), [Computational Geoscience MSc](https://www.gla.ac.uk/postgraduate/taught/computational-geoscience/) | 5 | 1 | English, Python, Fortran |
+:::
+:::
+
+
+
+## Global Challenges (GEOG5120)
+
+::: columns
+::: {.column width="20%"}
+![](img/uofg_cc0.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="80%"}
+**Description** --
+This course takes an interdisciplinary approach to global challenges, incorporating research-led teaching in geography and Earth sciences. It is problem-led and uses interdisciplinary teaching teams to deliver case study examples of contemporary environmental and social issues. See more details [here](https://www.gla.ac.uk/coursecatalogue/course/?code=GEOG5120).
+
+| Programme | Level | Semester | Language |
+| :--------: | :--: | :--: | :---: |
+| [Climate and Environmental Science MSc](https://www.gla.ac.uk/postgraduate/taught/climateenvironmentalscience/), [Earth Futures MSc](https://www.gla.ac.uk/postgraduate/taught/earthfutures/) | 5 | 1 and 2 | English |
+:::
+:::
+
+
+
+
+## Introduction to Climate Change and Sustainability (GEOG1015)
+
+::: columns
+::: {.column width="20%"}
+![](img/uofg_cc0.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="80%"}
+**Description** --
+An Interdisciplinary Introduction to Climate Change: A 10-week structured, accredited evening course centred around providing students with an interdisciplinary introduction to climate change, using approaches from both the social sciences (history, sociology, geography, politics, economics), and the natural sciences (engineering, physics, biology). See more details [here](https://www.gla.ac.uk/coursecatalogue/course/?code=GEOG1015).
+
+| Programme | Level | Semester | Language |
+| :--------: | :--: | :--: | :---: |
+| All | All | 1 | English |
+:::
+:::
+
+
+
+
+## Graduate Futures Work Placement (GEOG5119)
+
+::: columns
+::: {.column width="20%"}
+![](img/uofg_cc0.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="80%"}
+**Description** --
+The aim of this course is to provide appropriate experience of the working environment of a non-governmental organisation, industry or statutory body in the community and/or environmental sector. This will allow an insight into the missions and functions of the organisation and workplace structures, and the opportunity to meet practitioners and develop practical skills and experience.
+
+| Programme | Level | Semester | Language |
+| :--------: | :--: | :--: | :---: |
+| [Climate and Environmental Science MSc](https://www.gla.ac.uk/postgraduate/taught/climateenvironmentalscience/), [Earth Futures MSc](https://www.gla.ac.uk/postgraduate/taught/earthfutures/) | 5 | 1 and 2 | English |
+:::
+:::
+
+
+
+
+
+
+## Geography 2 (GEOG2001)
+
+::: columns
+::: {.column width="20%"}
+![](img/uofg_cc0.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="80%"}
+**Description** --
+Level 2 Geography course providing an understanding of key principles and current issues in human, physical and environmental geographies. See more details [here](https://www.gla.ac.uk/coursecatalogue/course/?code=GEOG2001).
+
+| Programme | Level | Semester | Language |
+| :--------: | :--: | :--: | :---: |
+| [Geography](https://www.gla.ac.uk/undergraduate/degrees/geography/) | 2 | 1 and 2 | English |
+:::
+:::

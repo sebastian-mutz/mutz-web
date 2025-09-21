@@ -1,0 +1,30 @@
+/* css styles */
+
+/* blockquotes */
+blockquote {
+  background-color: #7186a6;
+  border-left: 5px solid #2f476b;
+  padding: 0.75em 1em;
+  border-radius: 4px;
+}
+
+/* basic caption styles */
+figure > figcaption,
+figure > p.caption,
+div.figure > p.caption,
+p.caption,
+figcaption.quarto-float-caption,
+figcaption.quarto-subfloat-caption,
+.quarto-float-caption,
+.quarto-subfloat-caption {
+  display: block;                /* ensure block behavior */
+  margin-top: 0.2rem;
+  font-size: 0.9em;
+  line-height: 1.2;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  color: #757980;                /* text color */
+  background: #e8f1fd;           /* background */
+  border-left: 5px solid #c0c0c0;
+  border-right: 5px solid #c0c0c0;
+}

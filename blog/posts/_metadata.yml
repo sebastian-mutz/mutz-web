@@ -1,0 +1,7 @@
+# options for all posts in this folder
+
+# re-render only when source files are changed
+freeze: auto
+
+# enable banner style title blocks
+title-block-banner: true

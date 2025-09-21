@@ -1,0 +1,32 @@
+---
+title: "Climate, AI, Energy Consumption, and Fortran"
+description: "Climate, AI, Energy Consumption, and Fortran"
+author:
+  - name: Sebastian G. Mutz
+    url: mutz.science
+    orcid: 0000-0001-8180-6150
+    affiliation: School of Geographical and Earth Sciences, University of Glasgow
+date: 2025-09-21
+categories: [climate, code, AI]
+# citation:
+#   url: post url
+# image: preview-image.png
+draft: false
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

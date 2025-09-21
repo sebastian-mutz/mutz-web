@@ -1,0 +1,28 @@
+---
+title: "Research"
+---
+
+# Climate Dynamics and Impact
+
+::: columns
+::: {.column width="15%"}
+![](img/climdyn_256_256.png){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="85%"}
+I study climate system dynamics - how atmosphere, cryosphere, land surface, and other climate system components interact over short (monthly) and geological (millions of years) time scales. I also model and predict the impacts that climate change has and will have on glaciers, extreme weather, and more. I employ theory-driven and data-driven (statistical and machine learning) models on different hardware -- from single-board computers to petaflops supercomputers and GPU-based clusters. Find out more on the [Climate Dynamics Lab](https://mutz.science/) website.
+:::
+:::
+
+
+# Sustainable Scientific Computing
+
+::: columns
+::: {.column width="15%"}
+![](img/integrateLogo_256_256.png){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="85%"}
+I develop research tools, numerical models, and teaching materials in modern Fortran and Python. Sustainability, accessibility, and ethics are key considerations. Consequently, all developed code and resources are open-access and open-source, and Fortran is used when reliability, performance, and energy efficiency are important. See some of the projects on [GitHub](https://github.com/sebastian-mutz).
+:::
+:::

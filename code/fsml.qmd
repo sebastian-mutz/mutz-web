@@ -1,0 +1,85 @@
+---
+title: "FSML - Fortran Statistics and Machine Learning"
+---
+
+# Summary
+
+::: columns
+::: {.column width="15%"}
+![](img/FSML_dark.png){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="85%"}
+FSML is a modern Fortran statistics and machine learning library suitable for contemporary research problems and teaching. It includes procedures for basic statistics, hypothesis tests, linear and non-linear methods, and statistical distribution functions. The source code (incl. examples and documentation) is available on [GitHub](https://github.com/sebastian-mutz/fsml).
+
+| Category | Distribution | Source | Licence | Language |
+| :--: | :--: | :--: | :--: | :--: |
+| Statistics and Machine Learning | FPM package | [GitHub](https://github.com/sebastian-mutz/fsml) | MIT | Fortran |
+:::
+:::
+
+
+
+# Software Description
+
+## Scope
+
+FSML consists of a set of accessible and well-documented statistics and ML procedures, suitable for many contemporary research problems and teaching. These procedures are categorised into five thematic modules:
+
+- DST: Statistical distribution functions (e.g., the probability density, cumulative distribution, and quantile functions of the Student’s t and generalised Pareto distributions).
+- STS: Basic statistics for describing and understanding data (e.g., mean, variance, correlation).
+- TST: Parametric and non-parametric hypothesis tests (e.g., analysis of variance, Mann–Whitney U).
+- LIN: Statistical procedures relying heavily on linear algebra (e.g., principal component analysis, ridge regression, linear discriminant analysis).
+- NLP: Non-linear and algorithmic procedures (e.g., k-means clustering).
+
+![](img/modules.png){ width=40% }
+
+FSML has minimal requirements. It uses Fortran 2008 features, Fortran-lang stdlib for linear algebra, and fpm for easy building and distribution.
+
+## Documentation
+
+The FSML handbook is hosted on [fsml.mutz.science](http://fsml.mutz.science/) and can be re-generated from its source files. It includes a detailed, example-rich documentation of the covered procedures, as well as installation instructions and information for contributors.
+
+# Examples
+
+The examples below demonstrate the use of zFSML interfaces, using double precision (dp):
+
+* statistical distribution functions:
+```fortran
+  ! exponential distribution probability density function
+  ! with x=0.8 and lambda=0.5
+  fx = fsml_exp_pdf(0.8_dp, lambda=0.5_dp)
+  ! generalised Pareto cumulative distribution function
+  ! with modified shape (xi) and location (mu) parameters
+  fx = fsml_gpd_cdf(1.9_dp, xi=1.2_dp, mu=0.6_dp)
+```
+
+* sample statistics and dependency measures:
+```fortran
+  ! mean of vector x
+  mean = fsml_mean(x)
+  ! sample standard deviation of vector x
+  std = fsml_std(x, ddf=1.0_dp)
+  ! Pearson correlation coefficient for vectors x1 and x2
+  pcc = fsml_pcc(x1, x2)
+```
+
+* hypothesis tests:
+```fortran
+  ! two-sample t-test for unequal variances (Welch's t-test);
+  ! returns test statistic (t), degrees of freedom (df), and p
+  call fsml_ttest_2sample(x1, x2, t, df, p, eq_var=.false.)
+  ! one-way ANOVA on a rank-2 array (x2d);
+  ! returns f-statistic (f), degrees of freedom (df1, df2) and p
+  call fsml_anova_1way(x2d, f, df1, df2, p)
+```
+
+* multiple linear ridge regression:
+```fortran
+  ! ridge regression for 100 data points, 5 variables, and lambda=0.2;
+  ! returns y intercept (b0), regression coefficients (b), and R^2 (rsq)
+  call fsml_ridge(x, y, 100, 5, 0.2_dp, b0, b, rsq)
+```
+
+FSML's repository and handbook includes examples for every public interface.
+

@@ -1,0 +1,38 @@
+project:
+  type: website
+
+website:
+  title: "Dr. Sebastian G. Mutz" # λ - lynx
+  reader-mode: true
+  navbar:
+    background: dark
+    foreground: light
+    search: true
+    left:
+      - text: "Research"
+        menu:
+          - research/research.qmd
+          - research/publications.qmd
+          - research/grants.qmd
+      - text: "Courses"
+        menu:
+          - courses/glasgow.qmd
+          - courses/external.qmd
+      - text: "Software"
+        menu:
+          - code/fsml.qmd
+          - code/fplt.qmd
+          - code/pyesd.qmd
+      - text: Blog
+        href: blog/index.qmd
+    tools:
+      - icon: github
+        href: https://github.com/sebastian-mutz/
+
+format:
+  html:
+    theme: morph #sandstone
+    highlight-style: nord
+    css: styles.css
+    toc: true
+

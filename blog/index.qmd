@@ -1,0 +1,9 @@
+---
+title: "Blog"
+listing:
+  contents: posts   # name of folder containing blog posts
+  type: grid        # grid, default, or table
+  sort: "date desc" # sort by date, descending order
+  categories: true  # allows you to sort posts by assigned categories
+---
+
