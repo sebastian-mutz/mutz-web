@@ -32,6 +32,8 @@ The [course website](http://integrate.mutz.science) for INTEGRATE (INTEGRation o
 ::: {.column width="85%"}
 The ParsQuake video series for emergency Earthquake education are designed to equip you with important scientific and pracitcal knowledge to help you protect yourself and your community in the event of an earthquake. Our curriculum consists of pre- and post-assessment activities, six directed inquiry-based science activities describing physical processes related to earthquakes, five interactive activities on earthquake hazards and mitigation strategies, and a codification art/literacy project. The videos and accompanying materials are availble through the [ParsQuake website](https://parsquake.org/).
 
+The videos were tested in the UK and Tajikistan; the results are published in *Geoscience Communication* (available [here](https://doi.org/10.5194/gc-4-281-2021)).
+
 | Mode | Format | Level | Licence | Language |
 | :--: | :--: | :--: | :--: | :--: |
 | self-taught | videos, lesson plans | 16+ yr | cc-by-nc | English, Farsi, German |

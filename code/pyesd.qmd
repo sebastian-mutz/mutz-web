@@ -32,10 +32,13 @@ PyESD is an open-source framework of the Perfect Prognosis approach of statistic
 
 ![Typical workflow for using pyESD to downscale climate data before it is used for impact modelling [Boatend and Mutz, 2023](https://gmd.copernicus.org/articles/16/6479/2023/).](img/pyESD_outline.png){ width=100% }
 
+## Documentation
+
+The full documentation with examples can be found [here](https://dan-boat.github.io/PyESD/).
+
 # Examples
 
-## Downscaling in the Neckar catchment, Germany
 
 This illustrative case study of downscaling temperature and precipitation in a catchment located in southwestern Germany was described in the package description paper of pyESD. All the modeling and analysis scripts are available on GitHub ([PyESD/example/Neckar](https://github.com/Dan-Boat/PyESD/tree/main/examples/Neckar)) and also on Zenodo ([supporting material](https://doi.org/10.5281/zenodo.7767681)). For more details about the findings, we refer to ([Boateng and Mutz, 2023](https://gmd.copernicus.org/preprints/gmd-2023-67/)).
 
-![Location of weather stations used to train the models.](img/pyESDneckar){ width=100% }
+![Location of weather stations used to train the models (from [Boateng and Mutz, 2023](https://dan-boat.github.io/PyESD/)).](img/pyESDneckar){ width=100% }

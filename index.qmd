@@ -26,13 +26,14 @@ If you have any questions or comments, just e-mail me. I'm an approchable person
 
 The [Climate Dynamics Lab](https://mutz.science/) is a small, international network of scientists working on different aspects of climate dynamics and climate change impact prediction. We keep an open-door policy to anyone interested in working on these topics (as a researcher, developer or communicator). [Get in touch](mailto:sebastian@mutz.science) if you have questions, comments, or would like to join us!
 
-
-
-
-
 ::: {.callout-note}
 ## Opportunities
 Information about open positions, supervision, and other opportunities can be found [here](https://mutz.science/net/opp.html).
 :::
 
+# Affiliations
 
+
+| UofG | Climate Dynamics | EGU | ESM-AI | Fortran-lang |
+| :--: | :--: | :--: | :--: | :--: |
+| [![](img/UoG_colour.png){height=100}](https://www.gla.ac.uk/schools/ges/) | [![](img/climatedynamics.png){height=100}](https://mutz.science/) | [![](img/egu.png){height=100}](https://www.egu.eu/) | [![](img/sagesEsmAI.png){height=100}](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) | [![](img/fortran.png){height=100}](https://fortran-lang.org/) |
