@@ -23,9 +23,9 @@ website:
           - code/fsml.qmd
           - code/fplt.qmd
           - code/pyesd.qmd
-      #- service/service.qmd
-      #- text: "Blog"
-      #  href: blog/index.qmd
+      - service/service.qmd
+      - text: "Blog"
+        href: blog/index.qmd
     tools:
       - icon: github
         href: https://github.com/sebastian-mutz/
