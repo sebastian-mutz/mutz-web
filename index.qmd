@@ -34,6 +34,12 @@ Information about open positions, supervision, and other opportunities can be fo
 # Affiliations
 
 
+| UofG | Climate Dynamics | EGU | ESM-AI |
+| :--: | :--: | :--: | :--: |
+| [![](img/UoG_colour.png){height=100}](https://www.gla.ac.uk/schools/ges/) | [![](img/climatedynamics.png){height=100}](https://mutz.science/) | [![](img/egu.png){height=100}](https://www.egu.eu/) | [![](img/sagesEsmAI.png){height=100}](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) |
+
+<!---
 | UofG | Climate Dynamics | EGU | ESM-AI | Fortran-lang |
 | :--: | :--: | :--: | :--: | :--: |
 | [![](img/UoG_colour.png){height=100}](https://www.gla.ac.uk/schools/ges/) | [![](img/climatedynamics.png){height=100}](https://mutz.science/) | [![](img/egu.png){height=100}](https://www.egu.eu/) | [![](img/sagesEsmAI.png){height=100}](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) | [![](img/fortran.png){height=100}](https://fortran-lang.org/) |
+--->
