@@ -23,6 +23,6 @@ I study climate system dynamics - how atmosphere, cryosphere, land surface, and 
 :::
 
 ::: {.column width="85%"}
-I develop research tools, numerical models, and teaching materials in modern Fortran and Python. Sustainability, accessibility, and ethics are key considerations. Consequently, all developed code and resources are open-access and open-source, and Fortran is used when reliability, performance, and energy efficiency are important. See some of the projects on [GitHub](https://github.com/sebastian-mutz).
+I develop research tools, numerical models, and teaching materials in modern Fortran and Python. Technical and environmental sustainability, accessibility, and ethics are key considerations. Consequently, all developed code and resources are open-access and open-source, and Fortran is used when reliability, performance, and energy efficiency are important. See some of the projects on [GitHub](https://github.com/sebastian-mutz).
 :::
 :::

@@ -1,0 +1,36 @@
+---
+title: "Outreach"
+---
+
+# Service Roles
+
+| Years | Project or Organisation | Role |
+| :-- | :-- | :-- |
+| 2024 -- | [EGU Outreach Committee](https://www.egu.eu/outreach/) | Member |
+| 2024 -- | [EGU Teacher-Scientist Pairing Scheme](https://www.egu.eu/news/1205/egus-teacher-scientist-pairing-scheme-2025-apply-now-to-co-create-a-video-lesson-for-schools/) | Leader |
+| 2021 -- | [INTEGRATE Project](http://integrate.mutz.science) | Leader, Developer |
+| 2015 -- | [ParsQuake NGO](https://parsquake.org/) | Member, Developer |
+
+
+# In Press and Professional Blogs (Examples)
+
+* 2022 - "Earth’s Climate is not in Equilibrium", *Spektrum (Germ. ed. Scientific American)* ([Read more](https://www.spektrum.de/news/palaeoklima-das-erdklima-ist-definitiv-nicht-im-gleichgewicht/2073378))
+* 2021 - INTEGRATE: a complete higher-education teaching package for climate science ([Read more](https://blogs.egu.eu/geolog/2021/07/09/introducing-inetgrate-a-complete-higher-education-teaching-package-for-climate-science/))
+* 2020 - "Lake to Desert to Lake", *Attempto!* ([Download](files/attempto_AppelMutz.pdf))
+* 2016 - Exploring the Sustainable Development Goals at the University of Tübingen ([Read more](https://blogs.egu.eu/network/gfgd/2016/02/08/guest-blog-exploring-the-sustainable-development-goals-at-the-university-of-tubingen-germany/))
+
+# Public Talks and Videos (Examples)
+
+* 2022 - “On Climate Change, Climate Mitigation and the Prisoner's Dilemma", Reutlingen
+* 2021 - Video for [GeoPark Maestrazgo](https://geoparques.es/en/portfolio_page/maestrazgo-en/), Producer
+* 2021 - “Caught in the web of climate change: On melting, sliding and running away”, Reutlingen
+* 2019 - [UN Forum on Science, Technology and Innovation, NY (USA)](https://drive.google.com/file/d/1rpEx8PtRWS38KoznPGlGt7k911X1WrmS/view), Co-author of GfGD statement
+
+
+
+# Articles and Conference Abstracts
+
+* 2021 - Using paired teaching for earthquake education in schools ([Read more](https://gc.copernicus.org/articles/4/281/2021/))
+* 2021 - A blended learning approach to structural field mapping: combining local geology, virtual geology, and web-based tools ([Read more](https://doi.org/10.5194/egusphere-egu21-3581))
+* 2020 - Paired teaching approach to earthquake education: a cross-country comparison between Dushanbe, Tajikistan and London, United Kingdom ([Read more](https://doi.org/10.5194/egusphere-egu2020-11230))
+
