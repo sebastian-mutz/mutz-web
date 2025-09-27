@@ -1,0 +1,71 @@
+---
+title: "Uncertainty, Chance, and Chaos"
+description: "Mathematics without mathematics™; philosophy without philosophy™."
+author:
+  - name: Sebastian G. Mutz
+    url: mutz.science
+    orcid: 0000-0001-8180-6150
+    affiliation: School of Geographical and Earth Sciences, University of Glasgow
+date: 2025-09-26
+categories: [chaos, randomness, probability, statistics]
+# citation:
+#   url: post url
+image: img/dice.png
+draft: false
+from: markdown+emoji
+---
+
+
+**Uncertainty, chance, and chaos** -- these are concepts we associate with difficult decisions, existential questions, and perhaps anxiousness. They are with us everyday and stay with us for our entire lives. Yet any serious engagement with these topics quickly leads us deep into a confusing world of philosophy and mathematics, which doesn't just allow us to describe these concepts, but also offers us a tool for making decisions: game theory. The aim of this post is to discuss these topics in an accessible and practical way, to cover some mathematics without mathematics™, and philosophy without philosophy™ .
+
+# Probability -- a measure for uncertainty
+
+In history, people have started their journey of understanding something by trying to measure it, describing it mathematically, putting some numbers on it. This is where we'll start, too.
+
+| Physical Space | Uncertainty |
+| :--: | :--: |
+| ![](img/box.png){width="50%"} | ![](img/question.png){width="50%"} |
+| -- | -- |
+| ![](img/ruler.png){width="50%"} | Probability |
+
+
+Ok, so we can measure it, but what is it and where it comes from? Our observations of the world around us are always incomplete, filtered through our limited senses and cognitive biases, and often severely misinterpreted by us. To complicate things further, there are things that are simply random and thus not knowable even if our observations were complete and we had the cognitive ability to process and understand them all.
+
+Incomplete knowledge because of incomplete observations or things that are simply unknowable, because they are random.
+
+
+
+
+
+# Options for preparation
+
+
+```{mermaid}
+flowchart LR
+  A{{Is uncertainty subjective?}} -->| No | B[Accept uncertainty and plan for range of outcomes]
+  A -->| Yes | C{{Can you learn new information about it?}}
+  C -->| No  | E[Research methods to increase learning capabilities]
+  C -->| Yes | D[Research topic further and update uncertainty]
+```
+
+```{mermaid}
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+```
+
+
+
+
+
+
+::: {.callout-note}
+All figures are public domain if not specified differently in the caption.
+:::
+
+
+
+
+
+
