@@ -1,0 +1,95 @@
+---
+title: "University of Tübingen"
+format: html
+css: styles.css
+---
+
+
+## Uncertainty
+
+::: columns
+::: {.column width="20%"}
+![](img/uoft_cc0.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="80%"}
+
+| Contributions | Taught | Level | Language |
+| :--------: | :--: | :--: | :--: |
+| Lecture on Uncertainty | 2025 | All | English |
+:::
+:::
+
+
+
+___
+
+The courses below are no longer taught by S.G. Mutz.
+
+## Physics of the Earth’s Surface
+
+::: columns
+::: {.column width="20%"}
+![](img/uoft_cc0.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="80%"}
+
+| Contributions | Taught | Level | Language |
+| :--------: | :--: | :--: | :--: |
+| Co-developer and instructor | 2021-2022 | MSc | English, Matlab |
+:::
+:::
+
+
+
+## Climate Dynamics, Probability and Statistics
+
+::: columns
+::: {.column width="20%"}
+![](img/uoft_cc0.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="80%"}
+
+The course was awarded the EGU Higher Education Teaching Grant to make it an [open-access teaching resource](integrate.mutz.science).
+
+| Contributions | Taught | Level | Language |
+| :--------: | :--: | :--: | :--: |
+| Developer and instructor | 2019 | MSc | English, Python |
+:::
+:::
+
+
+
+## Applied Tectonics and Surface Processes
+
+::: columns
+::: {.column width="20%"}
+![](img/uoft_cc0.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="80%"}
+
+| Contributions | Taught | Level | Language |
+| :--------: | :--: | :--: | :--: |
+| Co-developer and instructor | 2016-2021 | MSc | English, Matlab |
+:::
+:::
+
+
+
+## Geological Mapping Course
+
+::: columns
+::: {.column width="20%"}
+![](img/uoft_cc0.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="80%"}
+
+| Contributions | Taught | Level | Language |
+| :--------: | :--: | :--: | :--: |
+| Co-developer, coordinator, instructor | 2016-2022 | BSc | German, English |
+:::
+:::

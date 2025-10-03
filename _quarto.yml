@@ -17,6 +17,7 @@ website:
       - text: "Courses"
         menu:
           - courses/glasgow.qmd
+          - courses/tuebingen.qmd
           - courses/external.qmd
       - text: "Software"
         menu:

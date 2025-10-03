@@ -29,6 +29,11 @@ figcaption.quarto-subfloat-caption,
   border-right: 5px solid #c0c0c0;
 }
 
+/* horizontal rule */
+hr {
+  border: 2px solid #7186a6;
+}
+
 /* flowcharts */
 :root {
   --mermaid-edge-color: #7186a6; /* arrow / line colour */
