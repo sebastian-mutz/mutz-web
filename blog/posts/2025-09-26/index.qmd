@@ -49,6 +49,10 @@ Our observations of the world around us are always incomplete, filtered through 
 
 
 
+## Random for all practical purposes
+
+In many practical cases, we cannot tell if a process is unpredictable because it is truly random or unpredictable because we simply lack a lot of knowledge about it. If that understanding is far outside our current reach, we can treat the latter as "random for practical purposes".
+
 
 # Options for preparation
 

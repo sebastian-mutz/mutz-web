@@ -6,8 +6,9 @@ title: "Service"
 
 | Years | Project or Organisation | Role |
 | :-- | :-- | :-- |
-| 2024 -- | [Earth System Modelling and Artificial Intelligence](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) (SAGES) | Executive Committee Member |
+| 2024 -- | [Exascale Computing for Earth, Environmental, and Sustainability Solutions](https://www.exageo.org/) (ExaGEO) | Manager / Executive Committee Member |
 | 2025 | [Fortran-lang](https://fortran-lang.org/) at [Google Summer of Code](https://summerofcode.withgoogle.com/) | Mentor |
+| 2024 -- | [Earth System Modelling and Artificial Intelligence](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) (SAGES) | Executive Committee Member |
 | 2023 -- | [Earth System Dynamics](https://www.earth-system-dynamics.net/) Editorial Board | Associate Editor |
 | 2022 -- | [Geoscience Communication](https://www.geoscience-communication.net/) Editorial Board | Associate Editor |
 | 2022, 2023 | [EGU’s mentoring programme](https://www.egu.eu/outreach/mentoring/)| Mentor |
