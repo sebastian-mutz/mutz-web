@@ -5,7 +5,7 @@ css: styles.css
 ---
 
 
-## Uncertainty
+## Communicating Uncertainty in Science
 
 ::: columns
 ::: {.column width="20%"}
@@ -14,9 +14,11 @@ css: styles.css
 
 ::: {.column width="80%"}
 
+In this course, students have "the opportunity to develop a deeper understanding of how decisions are made under uncertainty, and how communicating uncertainty effectively can help with making more informed decisions even when the outcomes are not fully predictable." [S. Mohadjer]. The course was offered through Global Awareness Education, as part of the [Transdisciplinary Course Program and Career Service (TRACS)](https://uni-tuebingen.de/en/facilities/administration/iii-academic-affairs/transdisciplinary-course-program-and-career-service/)
+
 | Contributions | Taught | Level | Language |
-| :--------: | :--: | :--: | :--: |
-| Lecture on Uncertainty | 2025 | All | English |
+| :-------- | :-- | :-- | :-- |
+| Session developer/intstructor for uncertainty | 2025 | All | English |
 :::
 :::
 
@@ -35,8 +37,10 @@ The courses below are no longer taught by S.G. Mutz.
 
 ::: {.column width="80%"}
 
+The course offers a physics-focused and interdisciplinary introduction to Earth surface processes. It covers geomorphological, climatological and biological processes relevant to Earth's surface. These concepts are explored through lectures and coding practicals.
+
 | Contributions | Taught | Level | Language |
-| :--------: | :--: | :--: | :--: |
+| :-------- | :-- | :-- | :-- |
 | Co-developer and instructor | 2021-2022 | MSc | English, Matlab |
 :::
 :::
@@ -52,10 +56,10 @@ The courses below are no longer taught by S.G. Mutz.
 
 ::: {.column width="80%"}
 
-The course was awarded the EGU Higher Education Teaching Grant to make it an [open-access teaching resource](integrate.mutz.science).
+This course offers an introduction to atmospheric processes, climate change, theoretical and practical knowledge of probability theory, descriptive and inferential statistics, and fundamentals of coding. S.G. Mutz was awarded the **EGU Higher Education Teaching Grant 2020** to make it an open-access teaching resource, accessible [here](https://integrate.mutz.science).
 
 | Contributions | Taught | Level | Language |
-| :--------: | :--: | :--: | :--: |
+| :-------- | :-- | :-- | :-- |
 | Developer and instructor | 2019 | MSc | English, Python |
 :::
 :::
@@ -71,8 +75,11 @@ The course was awarded the EGU Higher Education Teaching Grant to make it an [op
 
 ::: {.column width="80%"}
 
+The course offers an interdisciplinary introduction to processes that shape the Earth's surface. It covers tectonics, geomorphology and climatology. These concepts are explored through lectures and coding practicals.
+
+
 | Contributions | Taught | Level | Language |
-| :--------: | :--: | :--: | :--: |
+| :-------- | :-- | :-- | :-- |
 | Co-developer and instructor | 2016-2021 | MSc | English, Matlab |
 :::
 :::
@@ -88,8 +95,10 @@ The course was awarded the EGU Higher Education Teaching Grant to make it an [op
 
 ::: {.column width="80%"}
 
+This is the core geological and geomorphological mapping course of the department of geosciences. Students get a 3-day mapping crash course in Catalonia, followed by a 2-week mapping project in the province of Teruel, Spain. The course is taught in German and English, and offered as a complete field course and a hybrid (semi-digital) version.
+
 | Contributions | Taught | Level | Language |
-| :--------: | :--: | :--: | :--: |
+| :-------- | :-- | :-- | :-- |
 | Co-developer, coordinator, instructor | 2016-2022 | BSc | German, English |
 :::
 :::

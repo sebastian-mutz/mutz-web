@@ -102,3 +102,18 @@ The course is offered in the programme [Geography](https://www.gla.ac.uk/undergr
 | Developer and instructor of climate block | 2024 -- | 2 | 1 and 2 | English |
 :::
 :::
+
+
+
+## Field Classes (various)
+
+::: columns
+::: {.column width="20%"}
+![](img/uofg_cc0.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="80%"}
+**Description** --
+S.G. Mutz also assists as an instructor for different field classes (e.g., Glen Ogle, Spireslack), teaching geomorphology, sedimentology and how the landscape is modified by humans/industry.
+:::
+:::

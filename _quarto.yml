@@ -36,8 +36,8 @@ website:
 
 format:
   html:
-    theme: morph #sandstone
-    highlight-style: nord
+    theme: yeti # morph #sandstone
+    highlight-style: nord #monokai
     css: styles.css
     toc: true
 

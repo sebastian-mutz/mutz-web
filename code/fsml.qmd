@@ -13,7 +13,7 @@ title: "FSML - Fortran Statistics and Machine Learning"
 FSML is a modern Fortran statistics and machine learning library suitable for contemporary research problems and teaching. It includes procedures for basic statistics, hypothesis tests, linear and non-linear methods, and statistical distribution functions. The source code (incl. examples and documentation) is available on [GitHub](https://github.com/sebastian-mutz/fsml).
 
 | Category | Distribution | Source | Licence | Language |
-| :--: | :--: | :--: | :--: | :--: |
+| :-- | :-- | :-- | :-- | :-- |
 | Statistics and Machine Learning | FPM package | [GitHub](https://github.com/sebastian-mutz/fsml) | MIT | Fortran |
 :::
 :::

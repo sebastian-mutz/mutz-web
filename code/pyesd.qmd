@@ -13,7 +13,7 @@ title: "pyESD - Python Empirical-Statistical Downscaling"
 PyESD is an open-source framework for empirical-statistical downscaling of any climate-related variable such as precipitation, temperature, and wind speed. The package can, for example, downscale General Circulation Model simulations of future climate to high resolution relevant for climate impact assessment such as droughts, flooding, wildfire risk, and others. The package was developed by **Dr. Daniel Boateng** as a PhD student and under supervision of Dr. Sebastian G. Mutz. pyESD's publication in *Geoscientific Model Development* can be accessed [here](https://gmd.copernicus.org/articles/16/6479/2023/).
 
 | Category | Distribution | Source | Licence | Language |
-| :--: | :--: | :--: | :--: | :--: |
+| :-- | :-- | :-- | :-- | :-- |
 | Data-Driven Modelling | PIP | [GitHub](https://github.com/Dan-Boat/PyESD) | MIT | Python |
 :::
 :::
