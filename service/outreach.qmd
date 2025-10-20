@@ -7,7 +7,7 @@ title: "Outreach"
 | Years | Project or Organisation | Role |
 | :-- | :-- | :-- |
 | 2024 -- | [EGU Outreach Committee](https://www.egu.eu/outreach/) | Member |
-| 2024 -- | [EGU Teacher-Scientist Pairing Scheme](https://www.egu.eu/news/1205/egus-teacher-scientist-pairing-scheme-2025-apply-now-to-co-create-a-video-lesson-for-schools/) | Leader |
+| 2024 -- | [EGU Teacher-Scientist Pairing Scheme](https://www.egu.eu/news/1205/egus-teacher-scientist-pairing-scheme-2025-apply-now-to-co-create-a-video-lesson-for-schools/) | Leader, Co-Developer |
 | 2021 -- | [INTEGRATE Project](http://integrate.mutz.science) | Leader, Developer |
 | 2015 -- | [ParsQuake NGO](https://parsquake.org/) | Member, Developer |
 
