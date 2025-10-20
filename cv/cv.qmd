@@ -2,14 +2,27 @@
 title: "Curriculum Vitae"
 ---
 
-# <span style="color:#308eb0"> Education and Qualifications </span>
-
+# <span style="color:#308eb0"> Education </span>
 
 | Year | Qualification | Institute |
-| :-- | :-- | :-- |
+| :-- | :---- | :---- |
 | 2023 -- | Habilitation | University of Tübingen, Germany |
 | 2015 -- | Doctorate (Dr. rer. nat.) | University of Würzburg, Germany |
 | 2021 -- | Integrated Master (M.Geol.) | University of Leicester, UK |
+
+
+
+
+# <span style="color:#308eb0"> Positions </span>
+
+| Year | Position | Institute |
+| :-- | :---- | :---- |
+| 2023 -- | Senior Lecturer (Associate Professor) | University of Glasgow, UK |
+| 2016 -- 2023 | Akademischer Rat (Assistant Professor) | University of Tübingen, Germany |
+| 2014 -- 2016 | Postdoctoral Researcher | University of Tübingen, Germany |
+| 2012 | Postdoctoral Researcher | University of Tübingen, Germany |
+| 2008 -- 2012 | Research Associate | University of Würzburg, Germany |
+
 
 
 
