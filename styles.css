@@ -38,12 +38,22 @@ body {
 body, p, h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #49525c;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* horizontal rule */
 hr {
   border: 2px solid #7186a6;
+}
+
+/* in-line (only) code formatting */
+p > code,
+li > code,
+span > code {
+  background-color: #d3d8de !important;
+  color: #308eb0;
+  padding: 2px 4px;
+  border-radius: 4px;
 }
 
 /* flowcharts */

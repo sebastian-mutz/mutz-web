@@ -1,0 +1,209 @@
+---
+title: "Fortran Statistics and Machine Learning"
+description: "First release of FSML (v0.1.0), a modern Fortran statistics and machine learning library"
+author:
+  - name: Sebastian G. Mutz
+    url: mutz.science
+    orcid: 0000-0001-8180-6150
+    affiliation: School of Geographical and Earth Sciences, University of Glasgow
+date: 2025-10-25
+categories: [Fortran, statistics, machine learning, software, development update]
+# citation:
+#   url: post url
+bibliography: refs.bib
+image: img/FSML_dark.png
+draft: false
+from: markdown+emoji
+---
+
+
+I'm happy to announce the first official release of `FSML` (*Fortran Statistics and Machine Learning*). It is a modern Fortran toolkit for statistics and machine learning (ML), suitable for contemporary research problems and teaching. Here, I expand on what I've written for the corresponding paper [@mutz:2025] in the *Journal of Open Source Software*. I provide more context for the library (or "package"), explain some of the design choices, and share some thoughts on where I see its role (or niche) in the Fortran software ecosystem, empirical research, and teaching.
+
+
+# Statistics, Machine Learning, and Fortran
+
+Over the past two decades, rapid advances in computing technology have greatly broadened the practical applications of statistics and enabled the widespread adoption of machine learning (ML) and techniques from the discipline of artificial intelligence (AI) in general. These developments have also transformed research methods and improved predictive modelling across many fields [e.g., @boateng:2023; @lang:2024]. Although Fortran has a long history in ML and data-driven modelling [e.g., @breiman:2001; @tomasetti:2009; @gutmann:2022] and naturally lends itself to this purpose as a reliable, high-performing language with excellent array functionality and intuitive syntax for mathematical applications, it has not been as widely adopted for statistics and ML as *Python* or *R*. Below, I briefly share some of my experiences and thoughts on this.
+
+## FORTRAN ≠ Fortran ≠ Fortran-lang Fortran
+
+The slow adoption of Fortran in general can be attributed to a number of factors that are summarised nicely by @kedward:2022. Among them are 1) an unfamiliarity of *modern* Fortran features, 2) a lack of modern tooling, and 3) a modest online presence and community. I caught myself nodding a lot when reading this paper. I've been using Fortran for over 17 years, supervised students using Fortran, and frequently talked to colleagues about their gripes with the language. Most issues aren't with the language itself, but with the lack of modern tooling and convenient online resources (points 2 and 3). Without these, more time needs to be invested to produce the same research results -- time that students and (early career) researchers don't have in modern academia. Gripes with the language itself typically involve complaints about (old) FORTRAN and supposedly missing features that have been part of standard (modern) Fortran for over two decades (point 1). It's easy to understand an aversion if your experience with the language is limited to FORTRAN, of course. To demonstrate:
+
+::: columns
+
+::: {.column width="48%"}
+
+FORTAN (old)
+``` Fortran
+      PROGRAM SUM
+C     FORTRAN code
+      INTEGER I, SUM
+      SUM = 0
+      I = 1
+
+10    CONTINUE
+      SUM = SUM + I
+      IF (I .GE. 10) GOTO 20
+      I = I + 1
+      GOTO 10
+
+20    CONTINUE
+      PRINT *, 'Sum (1 to 10) =', SUM
+      END
+```
+:::
+
+::: {.column width="4%"}
+:::
+
+
+::: {.column width="48%"}
+
+Fortran (modern)
+``` Fortran
+program sum
+  ! Fortran code
+  implicit none
+  integer :: i, sum
+
+  sum = 0
+  do i = 1, 10
+     sum = sum + i
+  enddo
+  print*, 'Sum (1 to 10) =', sum
+end program sum
+```
+
+:::
+:::
+
+I have worked with plenty with FORTRAN and am happy to leave it behind and not look back (unless I'm feeling nostalgic). So when faced with complaints about FORTRAN-specifics, I make the point that **FORTRAN ≠ Fortran**.
+
+
+Points 1-3 are now being addressed with community projects like the de facto standard library ([stdlib](https://github.com/fortran-lang/stdlib)), the Fortran Package Manager ([fpm](https://github.com/fortran-lang/fpm)), the LLVM-based interactive compiler [LFortran](https://github.com/lfortran/lfortran), the new [Fortran-lang website](https://fortran-lang.org/), and [Fortran Discourse](https://fortran-lang.discourse.group). A lot has changed over the past 5 years, and I can now point students and colleagues to a great selection of *fpm* packages, online tutorials, an [LFortran playground](https://dev.lfortran.org/) to try out the language, and a helpful community. It's also worth noting that the timing of these efforts coincides with the rise in Fortran's [TIOBE-index](https://www.tiobe.com/tiobe-index/) rankings, where it currently sits comfortably in the top 20. Although a lot of work is still needed to make Fortran as accessible as other popular languages, I can now -- in good conscience -- recommend Fortran to students and early career researchers again. Students have reported very positive experiences back to me. This includes students with little coding experience, students with knowledge of C++, and students who had only worked with higher level languages like Python. This had not been the case prior to these community efforts. Even though these efforts don't directly change the language itself, they significantly improve the experience for Fortran users -- so much so that I think it is fair to say that **Fortran ≠ Fortran-lang Fortran**.
+
+
+## The Fortran statistics and ML ecosystem
+
+The slow adoption of Fortran for statistics and ML can probably be attributed to a relatively small software ecosystem for these applications. Recently, projects like Neural-Fortran [@curcic:2019], ATHENA [@taylor:2024], FTorch [@atkinson:2025], and [FastGPT](https://ondrejcertik.com/blog/2023/03/fastgpt-faster-than-pytorch-in-300-lines-of-fortran/) and [FStats](https://github.com/jchristopherson/fstats) have significantly enriched that ecosystem. Nevertheless, it remains relatively small and patchy. `FSML` was created to occupy another niche as a well-documented library for statistics and classic ML, to create a richer ecosystem and make Fortran a more attractive choice for empirical analysis and modelling. Furthermore, it was made suitable for teachers, students and early career researchers to promote the adoption of Fortran at universities.
+
+
+
+
+# Why Fortran?
+
+Fortran is a well-established general purpose programming language that is commonly adopted in science due to its stability, reliability, performance, and array functionality. It is widely used for parallelised high-performance computing and numerical modelling [e.g., @giorgetta:2018]. The same strengths make it suitable for computationally demanding ML procedures and data-driven predictions. However, despite Fortran’s long history in data-driven prediction and ML [e.g., @breiman:2001; @tomasetti:2009; @gutmann:2022], it has not been as widely adopted in these fields as other languages and lacks well documented, accessible toolkits for statistics and classic ML.
+
+Although projects like Neural-Fortran [@curcic:2019], ATHENA [@taylor:2024], and [FStats](https://github.com/jchristopherson/fstats) cover some important procedures for deep-learning and classic statistics, the Fortran statistics and ML ecosystem remains relatively small. This potentially deters from the use of Fortran, which is already perceived as less accessible than other popular languages due to 1) the lack of familiarity with modern Fortran features, which is exacerbated by stagnating adoption of Fortran at universities, and 2) shortcomings that are currently being addressed by Fortran-lang community projects [@kedward:2022].
+
+
+
+# Background
+
+
+
+# Development Considerations
+
+## Keep it simple, stupid!
+
+simplicity in design and implementation to make software easier to understand, maintain, and debug. This means avoiding unnecessary complexity and over-engineering, ensuring code is clear, and using the minimum number of components,
+
+
+- minimal dependencies
+- no bloat except impure wrappers
+
+## Pure and parallelisable
+
+- impure wrappers; safe procedures. can optionally call pure ones instead. keeps all the "work" in smaller procedures that have no side effect. easier to understand core calculations + no side effects make use in parallelised environment easier.
+
+## Familiar and accessible
+
+- API similar to other common statistics and machine learning libraries (e.g., scipy)
+- Extensive documentation
+
+## Research and teaching
+
+I had also decided to use my experience in teaching coding at University to make it suitabile for teachers, students and early career researchers in order to promote the early adoption of Fortran for modern research.
+
+Lois blog post on Fortran and Python in education
+
+If a compiled language in science is taught, Fortran is good option
+
+Lfortran
+
+simple/minimal and familiar API
+
+
+
+## Community
+
+A healthy (online) presence and community is important for any programming language. In context of Fortran, that's a point also made by [@kedward:2022] and addressed by the creation of the new [Fortran-lang website](https://fortran-lang.org/) and [Fortran Discourse](https://fortran-lang.discourse.group/). I recently came across the following on the docs pages of Jorge Vallejo's [pic](https://github.com/JorgeG94/pic) project), which demonstrates this well:
+
+> "I found a community of people that I hadn’t found in the C/C++ world and this drove me to start exploring the language [Fortran] a bit more." (Jorge Luis Gálvez Vallejo)
+
+Furthermore, as mentioned earlier, community projects like the Fortran-lang standard library ([stdlib](https://github.com/fortran-lang/stdlib)), the Fortran Package Manager ([fpm](https://github.com/fortran-lang/fpm)), and the LLVM-based compiler [LFortran](https://github.com/lfortran/lfortran) address the need for modern tools that Fortran was previously lacking.
+
+`FSML` is developed with consideration (and integration) of these community projects:
+
+- The de facto standard library `stdlib` is used for for linear algebra. It is the only external library used in the project's source code.
+- The package manager `fpm` is used for building and distributing the project as an *fpm package*.
+- The project is developed to support compilation with `LFortran` in addition to the GFortran.
+- The code is MIT-licenced, making it compatible with other Fortran-lang projects.
+
+
+
+
+
+
+
+# Scope
+
+## Current coverage
+
+![](img/modules.png){width="50%"} |
+
+`FSML v0.1.0`
+
+
+## Future expansion
+
+- I have not rewritten and included all of my previous code. This includes an implementation of random forests, for example. I will continue to rewrite and merge my previous work with `FSML`, as well as add new methods as needed by users or myself (if they fit the scope).
+- Frameworks for model training, cross-validation
+- Procedures for reading, writing, and basic data processing
+
+
+
+
+
+
+# Examples
+
+
+# Options for preparation
+
+
+```{mermaid}
+flowchart LR
+  A{{Is uncertainty subjective?}} -->| No | B[Accept uncertainty and plan for range of outcomes.]
+  A -->| Yes | C{{Can you learn new information about it?}}
+  C -->| No  | E[Research methods to increase learning capabilities and accept uncertainty in the meantime.]
+  C -->| Yes | D[Research topic further and update uncertainty.]
+```
+
+```{mermaid}
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+```
+
+
+
+::: {.callout-note}
+All figures are public domain if not specified differently in the caption.
+:::
+
+
+
+
+
+

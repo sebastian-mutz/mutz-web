@@ -28,8 +28,11 @@ website:
         menu:
           - service/outreach.qmd
           - service/service.qmd
-      # - text: "Blog"
-      #   href: blog/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+    right:
+      - text: "CV"
+        href: cv/cv.qmd
     tools:
       - icon: github
         href: https://github.com/sebastian-mutz/
