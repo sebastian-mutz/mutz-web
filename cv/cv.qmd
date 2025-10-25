@@ -2,13 +2,13 @@
 title: "Curriculum Vitae"
 ---
 
-# <span style="color:#308eb0"> Education </span>
+# <span style="color:#308eb0"> Academic Qualifications </span>
 
-| Year | Qualification | Institute |
+| Year of Award | Qualification | Institute |
 | :-- | :---- | :---- |
-| 2023 -- | Habilitation | University of Tübingen, Germany |
-| 2015 -- | Doctorate (Dr. rer. nat.) | University of Würzburg, Germany |
-| 2021 -- | Integrated Master (M.Geol.) | University of Leicester, UK |
+| 2023 | Habilitation | University of Tübingen, Germany |
+| 2015 | Doctorate (Dr. rer. nat.) | University of Würzburg, Germany |
+| 2008 | Integrated Master (M.Geol.) | University of Leicester, UK |
 
 
 
