@@ -2,7 +2,7 @@
 title: "Curriculum Vitae"
 ---
 
-# <span style="color:#308eb0"> Academic Qualifications </span>
+# <span style="color:#38967c"> Academic Qualifications </span>
 
 | Year of Award | Qualification | Institute |
 | :-- | :---- | :---- |
@@ -13,7 +13,7 @@ title: "Curriculum Vitae"
 
 
 
-# <span style="color:#308eb0"> Positions </span>
+# <span style="color:#38967c"> Positions </span>
 
 | Year | Position | Institute |
 | :-- | :---- | :---- |
@@ -26,21 +26,88 @@ title: "Curriculum Vitae"
 
 
 
-# <span style="color:#308eb0"> Research Grants </span>
+# <span style="color:#38967c"> Research Grants and Awards </span>
 
-| Name | Topic | Type | Funder | Duration | Status |
-|:-- | :------ |:---- | :-- | :-- | :-- |
-| RainX | Modelling Rainfall Extremes | PhD Project | NERC | 3.5 years | ongoing |
-| ExaGEO | Exascale Computing for the Environment | Doctoral Training Programme | NERC | 5 years | ongoing |
-| GECO-21 | Glacial Ecology | Research Support | NERC | 1+ years | ongoing |
-| QTiP | Tibetan Plateau History | Postdoc Project | BMBF | 3 years | completed |
-| REAL | Alps Climate and Uplist History | PhD Project | DFG | 3 years | completed |
-| APE | Alps Climate and Uplist History | Postdoc Project | DFG | 3 years | completed |
+| Year | Topic | Type | Funder | Duration | Status |
+|:- | :------ |:--- | :-- | :-- | :-- |
+| 2025 | RainX -- Modelling Rainfall Extremes | PhD Project | NERC | 3.5 years | ongoing |
+| 2024 | ExaGEO -- Exascale Computing for the Environment | Doctoral Training Programme | NERC | 5 years | ongoing |
+| 2024 | GECO-21 -- Glacial Ecology | Research Support | NERC | 1+ years | ongoing |
+| 2020 | REAL -- Alps Climate and Uplist History | PhD Project | DFG | 3 years | completed |
+| 2020 | Open-Access Climate Education (Higher Education Teaching Grant) | Teaching Support | EGU | 1 years | completed |
+| 2017 | QTiP -- Tibetan Plateau History | Postdoc Project | BMBF | 3 years | completed |
+| 2017 | APE -- Alps Climate and Uplist History | Postdoc Project | DFG | 3 years | completed |
+| 2016 | Earthquake Education (Public Engagement Grant) | Outreach Support | EGU | 1 years | completed |
 
 
 
 
-# <span style="color:#308eb0"> Service </span>
+# <span style="color:#38967c"> Teaching and Supervision </span>
+
+## Supervision
+
+| Type | Number | Comment |
+| :-- | :- | :---- |
+| Postdoctoral Researcher | 2 | University of Tübingen(2) |
+| Doctoral Student | 2 | University of Glasgow(1), University of Tübingen(1) |
+| Master Student (Research) | 14 | University of Glasgow(1), University of Tübingen(13) |
+| Master Student (Taught) | 13 | University of Glasgow(13) |
+| Bachelor Student | 11 | University of Glasgow(8), University of Tübingen(3) |
+
+**Note**: Only significant contributions to supervision are listed.
+
+## Taught Courses
+
+### University of Glasgow
+
+| Year | Course | Level | Language | Role |
+| :- | :---- | :- | :- | :--- |
+| 2025 | Theoretical and Applied Climatology | MSc | EN, Python, Fortran | Developer, coordinator, instructor |
+| 2025 | Global Challenges (climate block) | MSc | EN | Co-developer, instructor |
+| 2025 | Geography 2 (physical climatology block) | 2 | EN | Developer, instructor |
+| 2025 | Introduction to Climate Change and Sustainability | All | EN | Co-developer, instructor |
+| 2025 | Graduate Futures Work Placement | MSc | EN | Co-coordinator |
+| 2024 | Theoretical and Applied Climatology | MSc | EN, Python | Developer, coordinator, instructor |
+| 2024 | Global Challenges (climate lecture) | MSc | EN | Developer, instructor |
+| 2024 | Geography 2 (physical climatology block) | 2 | EN | Developer, instructor |
+| 2024 | Introduction to Climate Change and Sustainability | All | EN | Co-developer, instructor |
+| 2024 | Geographical - Geological Field Course | 2 | EN | Instructor |
+| 2023 | Introduction to Climate Change and Sustainability | All | EN | Co-developer, instructor |
+| 2023 | Geomorphological Field Course | 2 | EN | Instructor |
+
+### University of Tübingen
+
+| Year | Course | Level | Language | Role |
+| :- | :---- | :- | :- | :--- |
+| 2022 | Physics of the Earth’s Surface | MSc | EN, Matlab | Co-developer, instructor |
+| 2022 | Geological Mapping Course | BSc | DE, EN | Instructor |
+| 2021 | Physics of the Earth’s Surface | MSc | EN, Matlab | Co-developer, instructor |
+| 2021 | Geological Mapping Course | BSc | DE, EN | Instructor |
+| 2020 | Applied Tectonics and Surface Processes | MSc | EN, Matlab | Co-developer, instructor |
+| 2020 | Geological Mapping Course | BSc | DE, EN | Coordinator, instructor |
+| 2019 | Applied Tectonics and Surface Processes | MSc | EN, Matlab | Co-developer, instructor |
+| 2019 | Climate Dynamics, Probability and Statistics | MSc | EN, Matlab | Developer, coordinator, instructor |
+| 2018 | Applied Tectonics and Surface Processes | MSc | EN, Matlab | Co-developer, instructor |
+| 2018 | Geological Mapping Course | BSc | DE, EN | Coordinator, instructor |
+| 2017 | Applied Tectonics and Surface Processes | MSc | EN, Matlab | Co-developer, instructor |
+| 2017 | Geological Mapping Course | BSc | DE, EN | Instructor |
+| 2016 | Applied Tectonics and Surface Processes | MSc | EN, Matlab | Co-developer, instructor |
+| 2016 | Geological Mapping Course | BSc | DE, EN | Instructor |
+
+### Invited Talks and Teaching
+
+| Year | Course/Event | Institute |
+| :- | :------ | :------ |
+| 2025 | Communicating Uncertainty in Science (lecture) | University of Tübingen |
+| 2023 | Colloquium (Earth system modelling) | University of Freiburg |
+| 2021 | Colloquium (machine learning and climate science) | University of Tübingen |
+| 2019 | Systemanalyse (lecture) | University of Tübingen |
+| 2019 | Summer school (machine learning) | Karlsruhe Institute of Technology |
+| 2016 | Scientific Instruments (lecture) | International Centre for Ethics in the Sciences and Humanities, Tübingen |
+| 2015 | Colloquium | GfGD Annual Conference, Geological Society of London |
+| 2014 | Colloquium | University of Tübingen |
+
+# <span style="color:#38967c"> Service </span>
 
 ## Professional Societies and Development of Others
 
@@ -69,7 +136,7 @@ title: "Curriculum Vitae"
 
 
 
-# <span style="color:#308eb0"> Outreach </span>
+# <span style="color:#38967c"> Outreach </span>
 
 ## Service Roles
 
@@ -104,7 +171,7 @@ title: "Curriculum Vitae"
 
 
 
-# <span style="color:#308eb0"> Publications </span>
+# <span style="color:#38967c"> Publications </span>
 
 
 ## Peer-Reviewed Articles
