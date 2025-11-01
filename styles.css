@@ -60,3 +60,26 @@ span > code {
 :root {
   --mermaid-edge-color: #757980; /* arrow / line colour */
 }
+
+
+
+
+/* fully styled PDF */
+@media print {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12pt;
+  }
+  th, td {
+    border: 0.5pt solid black;  /* <-- absolute, tiny border */
+    padding: 3pt 4pt;           /* reduce padding for paper */
+  }
+  thead {
+    background-color: #f0f0f0 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .table-wrapper {
+    overflow: visible !important;
+  }
+

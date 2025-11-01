@@ -32,7 +32,11 @@ website:
         href: blog/index.qmd
     right:
       - text: "CV"
-        href: cv/cv.qmd
+        menu:
+          - text: "View Online"
+            href: cv/cv.qmd
+          - text: "Download PDF"
+            href: cv/cv.pdf
     tools:
       - icon: github
         href: https://github.com/sebastian-mutz/

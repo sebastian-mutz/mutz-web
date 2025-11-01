@@ -1,6 +1,45 @@
 ---
-title: "Curriculum Vitae"
+title: "Sebastian G. Mutz, Dr. rer. nat. habil."
 ---
+
+# <span style="color:#38967c"> Basic Information </span>
+
+::: columns
+::: {.column width="50%"}
+
+#### Institute
+
+| | |
+| :- | :---- |
+| Position | Senior Lecturer (Associate Professor) |
+| Affiliation | School of Geographical and Earth Sciences, University of Glasgow, UK |
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="45%"}
+
+#### Web
+
+| | |
+| :- | :---- |
+| ORCID | [0000-0001-8180-6150](https://orcid.org/0000-0001-8180-6150) |
+| GitHub | [@sebastian-mutz](https://github.com/sebastian-mutz) |
+| LinkedIn | [Sebastian Gerhard Mutz](https://www.linkedin.com/in/sebastian-gerhard-m-5b9952210/) |
+| University | [UofG staff profile](https://www.gla.ac.uk/schools/ges/staff/sebastianmutz/) |
+| Personal | [sebastianmutz.eu](https://sebastianmutz.eu/) |
+| Research lab | [mutz.science](https://mutz.science/) |
+| E-mail | [sebastian.mutz@glasgow.ac.uk](mailto:sebastian.mutz@glasgow.ac.uk) |
+
+:::
+:::
+
+
+
+
+
+
 
 # <span style="color:#38967c"> Academic Qualifications </span>
 
@@ -54,7 +93,7 @@ title: "Curriculum Vitae"
 | Master Student (Taught) | 13 | University of Glasgow(13) |
 | Bachelor Student | 11 | University of Glasgow(8), University of Tübingen(3) |
 
-**Note**: Only significant contributions to supervision are listed.
+**Note**: Only significant contributions to supervision are listed. Student details are not provided for privacy reasons.
 
 ## Taught Courses
 
