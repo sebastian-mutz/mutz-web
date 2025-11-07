@@ -17,7 +17,7 @@ from: markdown+emoji
 ---
 
 
-I'm happy to announce the first official release of `FSML` (*Fortran Statistics and Machine Learning*). It is a modern *Fortran* toolkit for statistics and machine learning (ML), suitable for contemporary research problems and teaching. Here, I expand on what I've written for the corresponding paper [@mutz:2025] in the *Journal of Open Source Software*. I provide more context for the library (or "package"), explain some of the design choices, and share some thoughts on where I see its role (or niche) in the *Fortran* software ecosystem, empirical research, and teaching. The code is hosted on [GitHub](https://github.com/sebastian-mutz/fsml/) and the html documentation can be found on [fsml.mutz.science](https://fsml.mutz.science/).
+I'm happy to announce the first official release of `FSML` (*Fortran Statistics and Machine Learning*). It is a modern *Fortran* toolkit for statistics and machine learning (ML), suitable for contemporary research problems and teaching. Here, I expand on what I've written for the corresponding paper [@mutz:2025] in the *Journal of Open Source Software*. I provide more context for the library (or "package"), explain some of the design choices, and share some thoughts on where I see its role (or niche) in the *Fortran* software ecosystem, empirical research, and teaching. The code is hosted on [GitHub](https://github.com/sebastian-mutz/fsml/) and the *html* documentation can be found on [fsml.mutz.science](https://fsml.mutz.science/).
 
 
 
@@ -26,7 +26,7 @@ I'm happy to announce the first official release of `FSML` (*Fortran Statistics 
 
 # Statistics, Machine Learning, and Fortran
 
-Over the past two decades, rapid advances in computing technology have greatly broadened the practical applications of statistics and enabled the widespread adoption of machine learning (ML) and techniques from the discipline of artificial intelligence (AI) in general. These developments have also transformed research methods and improved predictive modelling across many fields [e.g., @boateng:2023; @lang:2024]. Although *Fortran* has a long history in ML and data-driven modelling [e.g., @breiman:2001; @tomasetti:2009; @gutmann:2022] and naturally lends itself to this purpose as a reliable, high-performing language with excellent array functionality and intuitive syntax for mathematical applications, it has not been as widely adopted for statistics and ML as *Python* or *R*. Below, we briefly explore some of the opportunities and challenges of using *Fortran* in this discipline.
+Over the past two decades, rapid advances in computing technology have significantly broadened the practical applications of statistics and enabled the widespread adoption of machine learning (ML) and techniques from the discipline of artificial intelligence (AI) in general. These developments have also transformed research methods and improved predictive modelling across many fields [e.g., @boateng:2023; @lang:2024]. Although *Fortran* has a long history in ML and data-driven modelling [e.g., @breiman:2001; @tomasetti:2009; @gutmann:2022] and naturally lends itself to this purpose as a reliable, high-performing language with excellent array functionality and intuitive syntax for mathematical applications, it has not been as widely adopted for statistics and ML as *Python* or *R*. Below, I briefly explore some of the opportunities and challenges of using *Fortran* in this discipline.
 
 
 ## Why Fortran?
@@ -42,13 +42,13 @@ I often feel that many domain-specific advantages of *Fortran* over other langua
 ::: {.column width="80%"}
 - **High-performance**: *Fortran* is designed to handle computationally intensive tasks and often adopted for high-performance computing and numerical modelling in the sciences [e.g., @giorgetta:2018]. This includes battle-tested older code, as well as new models written from scratch in modern *Fortran*.
 
-- **Mature and well supported**: *Fortran* is a mature and reliable general purpose programming language with great compiler support. There are multiple open-source *Fortran* compilers like the well-established GFortran and new community projects like the *LLVM*-based LFortran.
+- **Mature and well supported**: *Fortran* is a mature and reliable general purpose programming language with great compiler support. There are multiple open-source *Fortran* compilers like the well-established *GFortran* and new *LLVM*-based *LFortran* and *Flang*.
 
 - **Mathematically intuitive**: *Fortran* (from FORmula TRANslator) was designed to translate mathematics to performant code. It comes with excellent array functionality and does not rely on external libraries for this (as languages like *Python* do). The mathematical basics are contained in the language.
 
 - **Energy-efficient**: *Fortran* is more energy-efficient than other high-level programming languages [@pereira:2021]. This is a factor that users may want to consider (or explore) as the widespread adoption of computationally intensive methods increases electricity consumption [@jia:2024], adds more stress on Earth’s climate and environments, and creates new challenges as a consequence [e.g., @dodge:2022; @freitag:2021].
 
-- **Easy to learn**: This may surprise a few. Due to the previous lack of modern tooling, online resources, and interactively (i.e. points currently addressed by the community), you faced barriers in learning *Fortran* that you didn't face with *Julia* and *Python*. However, the language itself is fairly small and easy to learn, and the growing modern ecosystem and community is slowly but surely removing these barriers.
+- **Easy to learn**: This may surprise a few. Due to the previous lack of modern tooling, online resources, and interactively (i.e. points currently addressed by the community), you faced barriers in learning *Fortran* that you didn't face with other popular languages. However, the language itself is fairly small and easy to learn, and the growing modern ecosystem and community is slowly but surely removing these barriers.
 :::
 :::
 
@@ -108,7 +108,7 @@ end program f90_sum
 I have worked with plenty with *FORTRAN* and am happy to leave it behind and not look back (unless I'm feeling nostalgic). So when faced with complaints about *FORTRAN*-specifics, I make the point that **FORTRAN ≠ Fortran**.
 
 
-Points 1-3 are now being addressed by Fortran-lang community projects like the de facto standard library ([stdlib](https://github.com/fortran-lang/stdlib)), the Fortran Package Manager ([fpm](https://github.com/fortran-lang/fpm)), the *LLVM*-based interactive compiler [LFortran](https://github.com/lfortran/lfortran), the new [Fortran-lang website](https://fortran-lang.org/), and [Fortran Discourse](https://fortran-lang.discourse.group). A lot has changed over the past 5 years, and I can now point students and colleagues to a great selection of *fpm* packages, online tutorials, an [LFortran playground](https://dev.lfortran.org/) to try out the language, and a helpful community. It's also worth noting that the timing of these efforts coincides with the rise in *Fortran*'s [TIOBE-index](https://www.tiobe.com/tiobe-index/) rankings, where it currently sits comfortably in the top 20. Although a lot of work is still needed to make *Fortran* as accessible as other popular languages, I can now -- in good conscience -- recommend *Fortran* to students and early career researchers again. Students have reported very positive experiences back to me. This includes students with little coding experience, students with knowledge of *C++*, and students who had only worked with higher level languages like *Python*. This had not been the case prior to these community efforts. Even though these efforts don't directly change the language itself, they significantly improve the experience for *Fortran* users -- so much so that I think it's fair to say that **Fortran ≠ Fortran-lang Fortran**.
+Points 1-3 are now being addressed by Fortran-lang community projects like the de facto standard library ([stdlib](https://github.com/fortran-lang/stdlib)), the Fortran Package Manager ([fpm](https://github.com/fortran-lang/fpm)), the *LLVM*-based interactive compiler [LFortran](https://github.com/lfortran/lfortran), the new [Fortran-lang website](https://fortran-lang.org/), and [Fortran Discourse](https://fortran-lang.discourse.group). A lot has changed over the past 5 years, and I can now point students and colleagues to a great selection of *fpm* packages, online tutorials, an [LFortran playground](https://dev.lfortran.org/) to try out the language, and a helpful community. It's also worth noting that the timing of these efforts coincides with the rise in *Fortran*'s [TIOBE-index](https://www.tiobe.com/tiobe-index/fortran/) rankings, where it currently sits comfortably in the top 20. Although a lot of work is still needed to make *Fortran* as accessible as other popular languages, I can now -- in good conscience -- recommend *Fortran* to students and early career researchers again. Students have reported very positive experiences back to me. This includes students with little coding experience, students with knowledge of *C++*, and students who had only worked with higher level languages like *Python*. This had not been the case prior to these community efforts. Even though these efforts don't directly change the language itself, they significantly improve the experience for *Fortran* users -- so much so that I think it's fair to say that **Fortran ≠ Fortran-lang Fortran**.
 
 
 ## The Fortran statistics and ML ecosystem
@@ -156,7 +156,7 @@ Currently, `LFortran` does not compile `stdlib` and therefore cannot be used.
 
 ## Future expansion
 
-I have not rewritten and included all of my older code. I will continue to rewrite and merge my previous work with `FSML`, as well as add new methods as needed by users or myself (if they fit the scope). This includes:
+A lot of the library consists of reworked and modernised research code of mine. I will continue to rewrite and merge my previous work with `FSML`, as well as add new methods as needed by users (if they fit the scope). This includes:
 
 - Random Forests, Bayesian classifiers, multivariate Gaussian integrals, and more.
 - Performance metrics (e.g., RMSE).
@@ -224,24 +224,24 @@ When I saw the growing online community and visible interest in all things *Fort
 
 ## Keep it simple, stupid! (KISS)
 
-`FSML` is kept fairly simple in the KISS sense. Unnecessary complexity and over-engineering of features are avoided, the code is kept clear, the number of dependencies is kept to a minimum, and only standard language features are used. Simplicity in design and implementation makes it easier to understand, maintain, and debug. Coupled with its extensive [documentation](https://fsml.mutz.science) and [style guide](https://fsml.mutz.science/page/contributing.html), it should therefore be relatively easy for students and potential contributors to dive into the code.
+`FSML` is kept fairly simple in the KISS sense. Unnecessary complexity and over-engineering of features are avoided, the code is kept clear, the number of dependencies is kept to a minimum, and only standard language features are used. Simplicity in design and implementation makes it easier to understand, maintain, and debug. Coupled with its extensive [documentation](https://fsml.mutz.science) and [style guide](https://fsml.mutz.science/page/contributing.html), it should be relatively easy for students and potential contributors to dive into the code.
 
 
 ## Parallel execution: `pure` and `elemental`
 
-Most statistical and ML procedures are implemented as `pure` procedures (recognisable also by the `_core` suffix) with `impure` wrappers that handle input arguments and provide user feedback where needed. Some notes on that below:
+Most statistical and ML procedures are implemented as `pure` procedures (recognisable also by the `_core` suffix in the procedure name) with `impure` wrappers that handle input arguments and provide user feedback where needed. Some notes on that below:
 
 - The standard interface (accessible through `use fsml`) exposes only the [safe wrapper procedures](https://fsml.mutz.science/page/api/index.html) (e.g., `fsml_anova_1way`). However, the `pure` procedures can be used by importing them directly from their respective modules (e.g., `use fsml_tst, only: anova_1way => s_tst_anova_1w_core`).
-- There are several advantages to `pure` procedures. It keeps all the "work" (mathematical calculations) in smaller, more understandable procedures. These procedures have no side effect and can therefore be easily used in `do concurrent` loops or 'manually' parallelised applications.
+- There are several advantages to `pure` procedures. It keeps all the "work" (mathematical calculations) in smaller, more understandable procedures. These procedures have no side effect and can therefore be easily used in `do concurrent` loops or 'manually' parallelised.
 - `FSML` procedures that only have scalar value arguments and results are declared `elemental` procedures. These may be invoked with arrays and simplify parallel execution.
 
-Below is are minimalist demonstrations of using pure and elemental procedures.
+Below are minimalist demonstrations of using pure and elemental procedures.
 
 ::: columns
 
 ::: {.column width="49%"}
 
-Pure procedure in do concurrent loop.
+Pure procedure in `do concurrent` loop.
 ``` Fortran
 program pure_fsml
   ! Computes correlation coefficients for 5 vector pairs.
@@ -305,7 +305,7 @@ end program elemental_fsml
 
 ## Familiar and accessible
 
-The API is kept similar to that of other statistics and ML libraries (e.g., scipy), so it will feel familiar to those who used popular *R* or *Python* packages, for example. That's intentional and meant to lower the barrier to explore *Fortran* for such tasks. Furthermore, the user [Handbook](https://fsml.mutz.science/page/index.html) includes a short tutorial, a contributor's guide, and example-rich API documentation (with detailed descriptions of the methods) to make the library more accessible.
+The API (Application Programming Interface) is kept similar to that of other statistics and ML libraries (e.g., *scipy*), so it will feel familiar to those who used popular *R* or *Python* packages, for example. That's intentional and meant to lower the barrier to explore *Fortran* for such tasks. Furthermore, the user [Handbook](https://fsml.mutz.science/page/index.html) includes a short tutorial, a contributor's guide, and example-rich API documentation (with detailed descriptions of the methods) to make the library more accessible.
 
 
 ## Suitable for teaching and research
@@ -327,7 +327,7 @@ Conventional wisdom puts common research needs (performance and speed) at odds w
 
 `FSML` is developed with the community in mind. A healthy (online) presence and community is important for any programming language. In context of *Fortran*, that's a point also made by [@kedward:2022] and addressed by the creation of the new [Fortran-lang website](https://fortran-lang.org/) and [Fortran Discourse](https://fortran-lang.discourse.group/). I recently came across the following on the docs pages of Jorge's [PIC](https://github.com/JorgeG94/pic) project), which demonstrates this well:
 
-> "I found a community of people that I hadn’t found in the C/C++ world and this drove me to start exploring the language a bit more." (Jorge Luis Gálvez Vallejo)
+> "I found a community of people that I hadn’t found in the C/C++ world and this drove me to start exploring the language a bit more." (Jorge Luis Gálvez Vallejo, 2025)
 
 Furthermore, as mentioned earlier, community projects like the Fortran-lang standard library (`stdlib`), the *Fortran Package Manager* (`fpm`), and the *LLVM*-based compiler `LFortran` address the need for modern tools.
 
@@ -336,7 +336,7 @@ Furthermore, as mentioned earlier, community projects like the Fortran-lang stan
 - The de facto standard library `stdlib` is used for for linear algebra. It is the only external library used in the project's source code.
 - The package manager `fpm` is used for building and distributing the project as an *fpm package*.
 - The project is developed to support compilation with `LFortran` in addition to the `GFortran`.
-- The code is [MIT](https://opensource.org/license/mit)-licenced, making it compatible with other Fortran-lang projects.
+- The code is [MIT](https://opensource.org/license/mit)-licenced, making it compatible with *Fortran-lang* projects.
 
 
 
@@ -352,7 +352,7 @@ Support for the project is always welcome. This can come in various shapes and s
 - Contribute code.
 - Let your fellow *Fortran* and statistics/ML enthusiasts know about the library. 🙂
 
-If you're interested in contributing code, reading the [contributor guidelines](https://fsml.mutz.science/page/contributing.html) and [code of conduct](https://fsml.mutz.science/page/conduct.html) are good places to start. These are very similar to the guidelines of Fortran-lang projects. In the contributor guidelines, you'll also find notes on how to report a bug or make a suggestion.
+If you're interested in contributing code, reading the [contributor guidelines](https://fsml.mutz.science/page/contributing.html) and [code of conduct](https://fsml.mutz.science/page/conduct.html) are good places to start. These are very similar to the guidelines of *Fortran-lang* projects. In the contributor guidelines, you'll also find notes on how to report a bug or make a suggestion.
 
 
 
@@ -368,7 +368,7 @@ If you're interested in contributing code, reading the [contributor guidelines](
 :::
 
 ::: {.column width="85%"}
-There is no reason to mention Herbert in this post other than the fact he is acknowledged in the *JOSS* paper [@mutz:2025] and relevant to everything I do. He is -- by far -- the smartest, proudest, and most glorious pigeon I've ever had the privilege of knowing, and his fame is ever-increasing.
+There is no reason to mention Herbert in this post other than the fact he is acknowledged in the *JOSS* paper [@mutz:2025] and relevant to everything in my life. He is -- by far -- the smartest, proudest, and most glorious pigeon I've ever had the privilege of knowing, and his fame is ever-increasing.
 
 *"Yes, I'm aware of the legend Herbert." (Syed Danish Ali, July 2025)*
 :::
