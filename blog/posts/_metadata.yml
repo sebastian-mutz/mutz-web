@@ -1,9 +1,5 @@
 # options for all posts in this folder
 
-listing:
-  contents: posts
-  type: default
-
 # freeze computational output
 freeze: true
 

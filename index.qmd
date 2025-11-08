@@ -17,8 +17,14 @@ I'm a computational climatologist ([associate professor](https://www.gla.ac.uk/s
 If you have any questions or comments, just e-mail me. I'm an approchable person -- I think.
 
 ::: {.callout-note}
-## Contact
-**E-mail:** sebastian.mutz@glasgow.ac.uk
+## Connect
+| | |
+| :- | :---- |
+| E-mail | [sebastian@mutz.science](mailto:sebastian@mutz.science), [sebastian.mutz@glasgow.ac.uk](mailto:sebastian.mutz@glasgow.ac.uk) (university matters) |
+| Research Profiles | [ORCID](https://orcid.org/0000-0001-8180-6150), [ResearchGate](https://www.researchgate.net/profile/Sebastian-Mutz), [Google Scholar](https://scholar.google.com/citations?user=elDHEVMAAAAJ) |
+| Code and Community | [GitHub](https://github.com/sebastian-mutz), [Fortran Discourse](https://fortran-lang.discourse.group/u/fxm/) |
+| Social | [LinkedIn](https://www.linkedin.com/in/sebastian-gerhard-m-5b9952210/), [Bluesky](https://bsky.app/profile/sebastian-mutz.bsky.social), [Ex-Twitter](https://x.com/sebastian_mutz) (XCOM is a game) |
+
 :::
 
 
