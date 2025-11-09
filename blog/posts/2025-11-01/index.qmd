@@ -40,7 +40,7 @@ I often feel that many domain-specific advantages of *Fortran* over other langua
 :::
 
 ::: {.column width="80%"}
-- **High-performance**: *Fortran* is designed to handle computationally intensive tasks and often adopted for high-performance computing and numerical modelling in the sciences [e.g., @giorgetta:2018]. This includes battle-tested older code, as well as new models written from scratch in modern *Fortran*.
+- **High-performance**: *Fortran* is designed to handle computationally intensive tasks and often adopted for high-performance computing and numerical modelling in the sciences [e.g., @giorgetta:2018]. This includes battle-tested older code, as well as new models written from scratch in modern *Fortran*. Related to this, static and strong typing allows compilers to catch errors early, make optimisations, and generate extremely efficient binary code.
 
 - **Mature and well supported**: *Fortran* is a mature and reliable general purpose programming language with great compiler support. There are multiple open-source *Fortran* compilers like the well-established *GFortran* and new *LLVM*-based *LFortran* and *Flang*.
 
@@ -312,7 +312,7 @@ The API (Application Programming Interface) is kept similar to that of other sta
 
 I think the suitability of `FSML` for research needs no further comments, since it evolved from a toolbox used for (peer-reviewed) research. Instead, I'll focus on its suitability on students and researchers with limited coding experience.
 
-In [one of his blog posts](https://loiseaujc.github.io/posts/blog-title/fortran_vs_python.html), Jean-Christophe Loiseau compares *Fortran* to *Python* for teaching linear algebra. His experience with the pitfalls of using latter (0-based indexing, strict indentation rules, and relying on external packages for basic linear algebra) also matches my ~10 years of experience teaching scientific coding. In addition, it has been my experience that students need time to internalise the practical implications of data types. Implicit typing, as is normal for *Python*, hides the concepts of data types, delays internalisation, and results in puzzling over type-related messages many weeks into the courses. In these matters, *Fortran* certainly has a pedagogical advantage. However, the big downside of using any compiled language in teaching is the lack of interactivity.
+In [one of his blog posts](https://loiseaujc.github.io/posts/blog-title/fortran_vs_python.html), Jean-Christophe Loiseau compares *Fortran* to *Python* for teaching linear algebra. His experience with the pitfalls of using latter (0-based indexing, strict indentation rules, and relying on external packages for basic linear algebra) also matches my ~10 years of experience teaching scientific coding. In addition, students need time to internalise the practical implications of data types. Implicit typing, as is normal for *Python*, hides the concepts of data types, delays internalisation, and results in puzzling over type-related messages many weeks into the courses. In these matters, *Fortran* certainly has a pedagogical advantage. However, the big downside of using any compiled language in teaching is the lack of interactivity.
 
 Conventional wisdom puts common research needs (performance and speed) at odds with teaching needs (interactivity). However, languages like *Julia* and compilers like `Cling` (C++) and `LFortran` challenge this. Citing from the blog post [Why We Created LFortran](https://lfortran.org/blog/2019/04/why-we-created-lfortran/):
 

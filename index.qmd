@@ -10,31 +10,8 @@ title: "Sebastian G. Mutz | Dr. rer. nat. habil."
 :::
 
 ::: {.column width="80%"}
-I'm a computational climatologist ([associate professor](https://www.gla.ac.uk/schools/ges/staff/sebastianmutz/) at the University of Glasgow). I use theory- and data-driven models to understand and predict processes and events in the climate system. I currently serve as manager of [ExaGEO](https://www.exageo.org/) (exascale computing for environmental solutions), on the steering committee of the [ESM-AI](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) (Earth System Modelling and Artificial Intelligence) forum of SAGES (Scottish Alliance for Geoscience, Environment and Society), and on the [EGU-OC](https://www.egu.eu/outreach/) (European Geosciences Union Outreach Committee).
+I'm a computational climatologist ([associate professor](https://www.gla.ac.uk/schools/ges/staff/sebastianmutz/) at the University of Glasgow). I use theory- and data-driven models to understand and predict processes and events in the climate system. I currently serve as manager of [ExaGEO](https://www.exageo.org/) (exascale computing for environmental solutions), on the steering committee of the [ESM-AI](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) (Earth System Modelling and Artificial Intelligence) forum of SAGES (Scottish Alliance for Geoscience, Environment and Society), and on the [EGU-OC](https://www.egu.eu/outreach/) (European Geosciences Union Outreach Committee). If you have any questions or comments, just e-mail me ([sebastian@mutz.science](mailto:sebastian@mutz.science)).
 :::
-:::
-
-If you have any questions or comments, just e-mail me. I'm an approchable person -- I think.
-
-::: {.callout-note}
-## Connect
-| | |
-| :- | :---- |
-| E-mail | [sebastian@mutz.science](mailto:sebastian@mutz.science), [sebastian.mutz@glasgow.ac.uk](mailto:sebastian.mutz@glasgow.ac.uk) (university matters) |
-| Research Profiles | [ORCID](https://orcid.org/0000-0001-8180-6150), [ResearchGate](https://www.researchgate.net/profile/Sebastian-Mutz), [Google Scholar](https://scholar.google.com/citations?user=elDHEVMAAAAJ) |
-| Code and Community | [GitHub](https://github.com/sebastian-mutz), [Fortran Discourse](https://fortran-lang.discourse.group/u/fxm/) |
-| Social | [LinkedIn](https://www.linkedin.com/in/sebastian-gerhard-m-5b9952210/), [Bluesky](https://bsky.app/profile/sebastian-mutz.bsky.social), [Ex-Twitter](https://x.com/sebastian_mutz) (XCOM is a game) |
-
-:::
-
-
-# Climate Dynamics Lab
-
-The [Climate Dynamics Lab](https://mutz.science/) is a small, international network of scientists working on different aspects of climate dynamics and climate change impact prediction. We keep an open-door policy to anyone interested in working on these topics (as a researcher, developer or communicator). [Get in touch](mailto:sebastian@mutz.science) if you have questions, comments, or would like to join us!
-
-::: {.callout-note}
-## Opportunities
-Information about open positions, supervision, and other opportunities can be found [here](https://mutz.science/net/opp.html).
 :::
 
 # Affiliations
@@ -48,3 +25,20 @@ Information about open positions, supervision, and other opportunities can be fo
 | :--: | :--: | :--: | :--: | :--: | :--: |
 | [![](img/UoG_colour.png){height=100}](https://www.gla.ac.uk/schools/ges/) | [![](img/climatedynamics.png){height=100}](https://mutz.science/) | [![](img/egu.png){height=100}](https://www.egu.eu/) | [![](img/sagesEsmAI.png){height=100}](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) | [![](img/parsquake.png){height=100}](https://parsquake.org/) | [![](img/fortran.png){height=100}](https://fortran-lang.org/) |
 --->
+
+# Climate Dynamics Lab
+
+The [Climate Dynamics Lab](https://mutz.science/) is a small, international network of scientists working on different aspects of climate dynamics and climate change impact prediction. We keep an open-door policy to anyone interested in working on these topics (as a researcher, developer or communicator). [Get in touch](mailto:sebastian@mutz.science) if you have questions, comments, or would like to join us!
+
+::: {.callout-note}
+## Opportunities
+Information about open positions, supervision, and other opportunities can be found [here](https://mutz.science/net/opp.html).
+:::
+
+# Connect
+| | |
+| :- | :---- |
+| E-mail | [sebastian@mutz.science](mailto:sebastian@mutz.science), [sebastian.mutz@glasgow.ac.uk](mailto:sebastian.mutz@glasgow.ac.uk) (for university matters) |
+| Research Profiles | [ORCID](https://orcid.org/0000-0001-8180-6150), [ResearchGate](https://www.researchgate.net/profile/Sebastian-Mutz), [Google Scholar](https://scholar.google.com/citations?user=elDHEVMAAAAJ), [University Profile](https://www.gla.ac.uk/schools/ges/staff/sebastianmutz/) |
+| Code and Community | [GitHub](https://github.com/sebastian-mutz), [Fortran Discourse](https://fortran-lang.discourse.group/u/fxm/),  [LinkedIn](https://www.linkedin.com/in/sebastian-gerhard-m-5b9952210/), [Bluesky](https://bsky.app/profile/sebastian-mutz.bsky.social), [Ex-Twitter](https://x.com/sebastian_mutz) (XCOM is a game) |
+
