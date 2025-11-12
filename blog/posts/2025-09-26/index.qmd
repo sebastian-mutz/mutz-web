@@ -10,7 +10,7 @@ date: 2025-09-26
 categories: [chaos, randomness, probability, statistics]
 # citation:
 #   url: post url
-image: img/dice.png
+image: img/die1.png
 draft: false
 from: markdown+emoji
 ---
@@ -34,7 +34,7 @@ Imagine a box. We can measure its length along one dimension, we can measure its
 
 Our observations of the world around us are always incomplete, filtered through our limited senses and cognitive biases, and often poorly understood and severely misinterpreted by us. This is a large source of uncertainty already. To complicate things further, there are things that are simply random and thus not predictable even if our observations were complete and we had the cognitive ability to process and understand them all. Let's look at these types of uncertainty more closely and learn how to describe them.
 
-# Chaos or randomness?
+# Chance or chaos?
 
 
 ## What sights to see?
@@ -43,31 +43,63 @@ Imagine the following scenario: You are planning a trip with your best friend. Y
 
 Your friend suggests rolling a set of perfectly balanced dice and pick your destination based on the outcome.
 You already have some dice on hand (as ones does). They're not perfectly balanced, but you don't have to get them first, and they look way cooler anyway.
-Your friend doesn't like unfair dice and jokingly suggests: "We may as well just ask my friend Thor and let him decide with his black magic".
+Your friend doesn't like unfair dice and jokingly suggests: "We may as well just ask my friend Thor and let him decide with his chaos magic".
 
 Well, that escalated quickly. However, these range of options allow us to explore different types of **uncertainty** and **probability**. Let's go through them step-by-step.
 
-1. Perfect dice
-By design, the outcome of a roll of perfect dice is meant to be **random**. If we accept this premise, then the outcome of a dice roll will change even if we apply the exact same force when rolling in the exact same environmental conditions. The uncertainty of the outcome is **aleatory uncertainty** - uncertainty that arises due to randomness. This uncertainty is usually described with so-called "objective probabilities".
+### 1. Perfect dice, randomness, and objective probabilities
 
-2. Cool dice
-Unbalanced dice will bias the outcome of a roll towards one or several sides on the dice. If we put in some effort, we could determine this bias through experimentation. Then, the outcome of a roll would be more predictable than it is in case of the perfect dice. The bias is knowable, and the uncertainty in outcomes could be reduced if we learned this knowledge. When uncertainty arises due to our lack of knowledge (rather than randomness), we speak of **epistemic uncertainties**. This uncertainty is usually described with so-called **subjective probabilities**. Subective does not imply a lack of rigour; it simply depends on the state of knowledge of a subject.
+::: columns
+
+::: {.column width="30%"}
+![](img/die1.png){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="70%"}
+By design, the outcome of a roll of perfect dice is meant to be **random**, i.e. governed by **chance**. If we accept this premise, then the outcome of a dice roll will change even if we apply the exact same force when rolling in the exact same environmental conditions. The uncertainty of the outcome is **aleatory uncertainty** - uncertainty that arises due to randomness. This uncertainty is usually described with so-called **objective probabilities**.
+
+:::
+:::
+
+### 2. Cool dice, ignorance, and subjective probabilities
+
+::: columns
+
+::: {.column width="30%"}
+![](img/die2.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="70%"}
+
+Unbalanced dice will bias the outcome of a roll towards one or several sides on the dice. If we put in some effort, we could determine this bias through experimentation. Then, the outcome of a roll would be more predictable than it is in case of the perfect dice. The bias is knowable, and the uncertainty in outcomes could be reduced if we learned this knowledge. When uncertainty arises due to our ignorance or lack of knowledge (rather than randomness), we speak of **epistemic uncertainties**. This uncertainty is usually described with so-called **subjective probabilities**. Subective does not imply a lack of rigour; it simply depends on the state of knowledge of a subject. It describes our "degree of belief", given the information we have.
+
+:::
+:::
 
 
-3. Thor's black magic
+### 3. Thor's chaos magic
+
+::: columns
+
+::: {.column width="30%"}
+![](img/thor2.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="70%"}
+
+This option is similar to option 2 in that a lot of uncertainty arises due to a lack of knowledge. However, it is a more extreme case, as there are a lot more knowable unknowns. Will your friend remember to contact Thor? Will the message be delivered? Will he read the message? Will he agree to decide for you? Will he use his chaos magic or tell you whatever first comes to his mind? Will he inform you of the outcome or just forget about it as he gets lost in his awesome music projects? Eventhough many of these things are knowable, **we simply don't know**.
+
+:::
+:::
+
+
+
 
 
 
 ## The butterfly effect
 
 ## Laplace's demon
-
-## Epistemic uncertainty, and subjective probability
-
-## Perfect dice
-
-## Perfect dice, aleatory uncertainty, and objective probability
-
 
 
 ## Random for all practical purposes
