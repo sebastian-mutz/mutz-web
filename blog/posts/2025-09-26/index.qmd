@@ -87,7 +87,7 @@ Unbalanced dice will bias the outcome of a roll towards one or several sides on 
 
 ::: {.column width="70%"}
 
-This option is similar to option 2 in that a lot of uncertainty arises due to a lack of knowledge. However, it is a more extreme case, as there are a lot more knowable unknowns. Will your friend remember to contact Thor? Will the message be delivered? Will he read the message? Will he agree to decide for you? Will he use his chaos magic or tell you whatever first comes to his mind? Will he inform you of the outcome or just forget about it as he gets lost in his awesome music projects? Eventhough many of these things are knowable, **we simply don't know**.
+This option is similar to option 2 in that a lot of uncertainty arises due to a lack of knowledge. However, it is a more extreme case, as there are a lot more knowable unknowns. Will you remember to contact Thor? Will he read the message? Will he agree to this strange request? Will he use his chaos magic or tell you whatever first comes to his mind? Will he inform you of the outcome or forget about it as he gets lost in his awesome music projects? Even though many of these things are knowable, **we simply don't know**.
 
 :::
 :::
