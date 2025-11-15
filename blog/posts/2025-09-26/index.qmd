@@ -16,7 +16,7 @@ from: markdown+emoji
 ---
 
 
-**Uncertainty, chance, and chaos** -- these are concepts we associate with difficult decisions, existential questions, and perhaps anxiousness. They are with us everyday and stay with us for our entire lives. Yet any serious engagement with these topics quickly leads us deep into a confusing world of philosophy and mathematics, which doesn't just allow us to describe these concepts, but also offers us a tool for making decisions: game theory. The aim of this post is to discuss these topics in an accessible and practical way, to cover some mathematics without mathematics™, and philosophy without philosophy™ .
+**Uncertainty, chance, and chaos** -- these are concepts we associate with difficult decisions, existential questions, and perhaps anxiousness. They are with us everyday and stay with us for our entire lives. Yet any serious engagement with these topics quickly leads us deep into a confusing world of philosophy and mathematics. The aim of this post is to discuss these topics in an accessible and practical way, to cover some mathematics without mathematics™, and philosophy without philosophy™ .
 
 # Probability -- a measure for uncertainty
 
