@@ -34,8 +34,8 @@ Imagine a box. We can measure its length along one dimension, we can measure its
 
 Our observations of the world around us are always incomplete, filtered through our limited senses and cognitive biases, and often poorly understood and severely misinterpreted by us. This is a large source of uncertainty already. To complicate things further, there are things that are simply random and thus not predictable even if our observations were complete and we had the cognitive ability to process and understand them all. Let's look at these types of uncertainty more closely and learn how to describe them.
 
-# Chance or chaos?
 
+# Sources of uncertainty
 
 ## What sights to see?
 
@@ -93,13 +93,23 @@ This option is similar to option 2 in that a lot of uncertainty arises due to a 
 :::
 
 
+# Unpredictability
+
+In the section above, we learned that the uncertainty associated with event outcomes can arise from the inherent randomness of a process or our lack of knowledge about a process. Or both. By extension, we can say that our ability to predict that outcome is limited the same. If we could attribute our difficulties to predict a process to inherent randomness, the case would be simple. We would be forced into radical acceptance of this unpredictability. However, in *real life*, we usually cannot know if our uncertainty can be attributed to true randomness, because we don't know enough about the processes. So epistemic uncertainty (ignorance) precludes attribution to aleatory uncertainty (randomness).
 
 
+## Laplace's demon
+
+Laplace's demon is a hypothetical being proposed by Laplace. It helps us understand the concept of epistemic uncertainty and subjective probabilities better. The idea: A demon who knows everything in existence at all time would be able to predict every event outcome perfectly. Such would be possible only if true randomness did not exist. At the time Laplace proposed this, true randomness had not been demonstrated convincingly. This has changed, which caused many to quickly dismiss this concept. Personally, I think people are keen to dismiss this notion because of the implication it would have on the much valued belief in free will. However, it remains unclear how much true randomness actually plays a role on scales relevant to *real life* problems.
 
 
 ## The butterfly effect
 
-## Laplace's demon
+
+
+
+## Chance or chaos?
+
 
 
 ## Random for all practical purposes
