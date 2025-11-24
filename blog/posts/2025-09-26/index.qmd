@@ -100,21 +100,17 @@ In the section above, we learned that the uncertainty associated with event outc
 
 ## Laplace's demon
 
-Laplace's demon is a hypothetical being proposed by Laplace. It helps us understand the concept of epistemic uncertainty and subjective probabilities better. The idea: A demon who knows everything in existence at all time would be able to predict every event outcome perfectly. Such would be possible only if true randomness did not exist. At the time Laplace proposed this, true randomness had not been demonstrated convincingly. This has changed, which caused many to quickly dismiss this concept. Personally, I think people are keen to dismiss this notion because of the implication it would have on the much valued belief in free will. However, it remains unclear how much true randomness actually plays a role on scales relevant to *real life* problems.
+Laplace's demon is a hypothetical being proposed by the mathematician Pierre-Simon Laplace. It helps us understand the concept of epistemic uncertainty and subjective probabilities better. The idea: A demon who knows everything in existence at all time would be able to predict every event outcome perfectly. Such would be possible only if true randomness did not exist. At the time Laplace proposed this, true randomness had not been demonstrated convincingly. This has changed, which caused many to quickly dismiss this concept. Personally, I think people are keen to dismiss this notion because of the implication it would have on the much valued belief in free will. However, it remains unclear how much true randomness actually plays a role on scales relevant to *real life* problems.
 
 
 ## The butterfly effect
 
+The **butterfly effect** is often described through a hypothetical scenario, in which the flaps of a butterfly's wings have strong impacts on the weather elsewhere in the world. It describes the high sensitivity of a **deterministic** system (in this case the weather system) to changes in its initial conditions. Since we have no way of knowing the exact initial conditions, the effect leads to unpredictability. Note that we speak of deterministic systems, i.e. systems that involve no randomness, so the unpredictability stems from a lack of knowledge rather than processes goverened by chance. In other words: Laplace's demon would be able to predict this change in weather! We speak of **chaos** when describing the unpredictable and seemingly random (but not truly random) behaviour of deterministic systems.
 
 
+## Chance or chaos? Does it matter?
 
-## Chance or chaos?
-
-
-
-## Random for all practical purposes
-
-In many practical cases, we cannot tell if a process is unpredictable because it is truly random or unpredictable because we simply lack a lot of knowledge about it. If that understanding is far outside our current reach, we can treat the latter as "random for practical purposes".
+Let's leave the realm of mathematics and think about decision making in face of uncertainty and (un)predictability). In many practical cases, we cannot tell if a process is unpredictable because it is truly random (governed by chance) or chaotic and unpredictable because we simply lack a of knowledge. If the understanding or predictability is far outside our current reach, we can treat the latter as "random for practical purposes".
 
 
 # Options for preparation
