@@ -36,7 +36,7 @@ I often feel that many domain-specific advantages of *Fortran* over other langua
 ::: columns
 
 ::: {.column width="20%"}
-![What better way to represent *Fortran* than with an (AI generated) image of a tardigrade -- creatures known to be robust, resilient, long-lived, and just a bit weird.](img/for_tardigrade.png){width="100%"}
+![*Fortran* represented by an (AI) image of a tardigrade -- a creature known to be robust, resilient, long-lived, and just a bit weird. If it were fast, it would fit perfectly.](img/for_tardigrade.png){width="100%"}
 :::
 
 ::: {.column width="80%"}
@@ -46,7 +46,7 @@ I often feel that many domain-specific advantages of *Fortran* over other langua
 
 - **Mathematically intuitive**: *Fortran* (from FORmula TRANslator) was designed to translate mathematics to performant code. It comes with excellent array functionality and does not rely on external libraries for this (as languages like *Python* do). The mathematical basics are contained in the language.
 
-- **Energy-efficient**: *Fortran* is more energy-efficient than other high-level programming languages [@pereira:2021]. This is a factor that users may want to consider (or explore) as the widespread adoption of computationally intensive methods increases electricity consumption [@jia:2024], adds more stress on Earth’s climate and environments, and creates new challenges as a consequence [e.g., @dodge:2022; @freitag:2021].
+- **Energy-efficient**: *Fortran* is more energy-efficient than other high-level programming languages [@pereira:2021]. This is a factor that users may want to explore, esp. as the widespread adoption of computationally intensive methods increases electricity consumption [@jia:2024], adds more stress on Earth’s climate and environments, and creates new challenges as a consequence [e.g., @dodge:2022; @freitag:2021].
 
 - **Easy to learn**: This may surprise a few. Due to the previous lack of modern tooling, online resources, and interactively (i.e. points currently addressed by the community), you faced barriers in learning *Fortran* that you didn't face with other popular languages. However, the language itself is fairly small and easy to learn, and the growing modern ecosystem and community is slowly but surely removing these barriers.
 :::
@@ -105,7 +105,7 @@ end program f90_sum
 :::
 :::
 
-I have worked with plenty with *FORTRAN* and am happy to leave it behind and not look back (unless I'm feeling nostalgic). So when faced with complaints about *FORTRAN*-specifics, I make the point that **FORTRAN ≠ Fortran**.
+I have worked with *FORTRAN* and am happy to leave it behind and not look back (unless I'm feeling nostalgic). So when faced with complaints about *FORTRAN*-specifics, I make the point that **FORTRAN ≠ Fortran**.
 
 
 Points 1-3 are now being addressed by Fortran-lang community projects like the de facto standard library ([stdlib](https://github.com/fortran-lang/stdlib)), the Fortran Package Manager ([fpm](https://github.com/fortran-lang/fpm)), the *LLVM*-based interactive compiler [LFortran](https://github.com/lfortran/lfortran), the new [Fortran-lang website](https://fortran-lang.org/), and [Fortran Discourse](https://fortran-lang.discourse.group). A lot has changed over the past 5 years, and I can now point students and colleagues to a great selection of *fpm* packages, online tutorials, an [LFortran playground](https://dev.lfortran.org/) to try out the language, and a helpful community. It's also worth noting that the timing of these efforts coincides with the rise in *Fortran*'s [TIOBE-index](https://www.tiobe.com/tiobe-index/fortran/) rankings, where it currently sits comfortably in the top 20. Although a lot of work is still needed to make *Fortran* as accessible as other popular languages, I can now -- in good conscience -- recommend *Fortran* to students and early career researchers again. Students have reported very positive experiences back to me. This includes students with little coding experience, students with knowledge of *C++*, and students who had only worked with higher level languages like *Python*. This had not been the case prior to these community efforts. Even though these efforts don't directly change the language itself, they significantly improve the experience for *Fortran* users -- so much so that I think it's fair to say that **Fortran ≠ Fortran-lang Fortran**.
@@ -113,7 +113,7 @@ Points 1-3 are now being addressed by Fortran-lang community projects like the d
 
 ## The Fortran statistics and ML ecosystem
 
-The slow adoption of *Fortran* for statistics and ML can probably be attributed to a relatively small software ecosystem for these applications. Recently, projects like `Neural-Fortran` [@curcic:2019], `ATHENA` [@taylor:2024], `FTorch` [@atkinson:2025], [FastGPT](https://ondrejcertik.com/blog/2023/03/fastgpt-faster-than-pytorch-in-300-lines-of-fortran/) and [FStats](https://github.com/jchristopherson/fstats) have significantly enriched that ecosystem. Nevertheless, it remains relatively small and patchy. `FSML` was created to occupy another niche as a well-documented library for statistics and classic ML, to create a richer ecosystem and make *Fortran* a more attractive choice for empirical analysis and modelling. Furthermore, it was made suitable for teachers, students and early career researchers to promote the adoption of *Fortran* at universities.
+The slow adoption of *Fortran* for statistics and ML can probably be attributed to a relatively small software ecosystem for these applications. Recently, projects like `Neural-Fortran` [@curcic:2019], `ATHENA` [@taylor:2024], `FTorch` [@atkinson:2025], [FastGPT](https://ondrejcertik.com/blog/2023/03/fastgpt-faster-than-pytorch-in-300-lines-of-fortran/), and [FStats](https://github.com/jchristopherson/fstats) have significantly enriched that ecosystem. Nevertheless, it remains relatively small and patchy. `FSML` was created to occupy another niche as a well-documented library for statistics and classic ML, to create a richer ecosystem and make *Fortran* a more attractive choice for empirical analysis and modelling. Furthermore, it was made suitable for teachers, students and early career researchers to promote the adoption of *Fortran* at universities.
 
 
 
@@ -124,7 +124,7 @@ The slow adoption of *Fortran* for statistics and ML can probably be attributed 
 
 ## Current coverage (`FSML v0.1.0`)
 
-`FSML v0.1.0` covers a range of statistics and ML procedures that are subdivided into five categories. These are also used in for module and procedure naming conventions in the code, so if you are interested in exploring the code, you will recognise these:
+`FSML v0.1.0` covers a range of statistics and ML procedures that are subdivided into five categories. These are also used for module and procedure naming conventions in the code, so if you are interested in exploring the code, you will recognise these:
 
 ![FSML has five thematic modules: Basic statistics (STS), hypothesis tests (TST), linear procedures (LIN), non-linear procedures (NLP), and statistical distribution functions (DST).](img/modules.png){ width=50% }
 
@@ -159,8 +159,8 @@ Currently, `LFortran` does not compile `stdlib` and therefore cannot be used.
 A lot of the library consists of reworked and modernised research code of mine. I will continue to rewrite and merge my previous work with `FSML`, as well as add new methods as needed by users (if they fit the scope). This includes:
 
 - Random Forests, Bayesian classifiers, multivariate Gaussian integrals, and more.
-- Performance metrics (e.g., RMSE).
-- Frameworks for model training and validation (e.g., data folding and cross-validation).
+- Model performance metrics (e.g., RMSE).
+- Frameworks for model training and validation (e.g., subsampling and cross-validation).
 - Procedures for reading, writing, and basic data processing.
 
 
@@ -211,7 +211,7 @@ In the early 2010s, I moved a lot of the *FORTRAN* statistics procedures I wrote
 :::
 
 ::: {.column width="70%"}
-When I saw the growing online community and visible interest in all things *Fortran*, I thought it a good idea to open up my research toolbox, rewrite and improve some of the code, document it well, and share it with the community. I took this opportunity to also change some conventions in my code (e.g., for precision handling, pure procedures, and use of intrinsics). At the same time, I discovered `fpm`, `stdlib` and `LFortran` and decided to take these into consideration when rewriting my code. So `stdlib`'s linear algebra interfaces replaced standard *LAPACK*, `fpm` replaced the Makefile for building, and `FSML` is developed to support compilation with `LFortran` -- being able to use statistics and ML procedures interactively in Jupyter notebooks would sure make *Fortran* more accessible to students and early career researchers (but more on that later). There is still some code I have not yet rewritten and included (and then there is more code not related to statistics and ML that may be worth sharing).
+When I saw the growing online community and visible interest in all things *Fortran*, I thought it a good idea to open up my research toolbox, rewrite and improve some of the code, document it well, and share it with the community. I took this opportunity to also change some conventions in my code (e.g., for precision handling, pure procedures, and use of intrinsics). At the same time, I discovered `fpm`, `stdlib` and `LFortran` and decided to take these into consideration when rewriting my code. So `stdlib`'s linear algebra interfaces replaced standalone *LAPACK*, `fpm` replaced the Makefile for building, and `FSML` is developed to support compilation with `LFortran` -- being able to use statistics and ML procedures interactively in Jupyter notebooks would sure make *Fortran* more accessible to students and early career researchers (but more on that later). There is still some code I have not yet rewritten and included (and then there is more code not related to statistics and ML that may be worth sharing).
 
 :::
 :::
@@ -232,7 +232,7 @@ When I saw the growing online community and visible interest in all things *Fort
 Most statistical and ML procedures are implemented as `pure` procedures (recognisable also by the `_core` suffix in the procedure name) with `impure` wrappers that handle input arguments and provide user feedback where needed. Some notes on that below:
 
 - The standard interface (accessible through `use fsml`) exposes only the [safe wrapper procedures](https://fsml.mutz.science/page/api/index.html) (e.g., `fsml_anova_1way`). However, the `pure` procedures can be used by importing them directly from their respective modules (e.g., `use fsml_tst, only: anova_1way => s_tst_anova_1w_core`).
-- There are several advantages to `pure` procedures. It keeps all the "work" (mathematical calculations) in smaller, more understandable procedures. These procedures have no side effect and can therefore be easily used in `do concurrent` loops or 'manually' parallelised.
+- There are several advantages to `pure` procedures. It keeps all the "work" (mathematical calculations) in smaller, more understandable procedures. These procedures have no side effect and can therefore be easily parallelised and used in `do concurrent` loops.
 - `FSML` procedures that only have scalar value arguments and results are declared `elemental` procedures. These may be invoked with arrays and simplify parallel execution.
 
 Below are minimalist demonstrations of using pure and elemental procedures.
@@ -310,22 +310,22 @@ The API (Application Programming Interface) is kept similar to that of other sta
 
 ## Suitable for teaching and research
 
-I think the suitability of `FSML` for research needs no further comments, since it evolved from a toolbox used for (peer-reviewed) research. Instead, I'll focus on its suitability on students and researchers with limited coding experience.
+I think the suitability of `FSML` for research needs no further comments, since it evolved from a toolbox used for (peer-reviewed) research. Instead, I'll focus on its suitability for students and researchers with limited coding experience.
 
-In [one of his blog posts](https://loiseaujc.github.io/posts/blog-title/fortran_vs_python.html), Jean-Christophe Loiseau compares *Fortran* to *Python* for teaching linear algebra. His experience with the pitfalls of using latter (0-based indexing, strict indentation rules, and relying on external packages for basic linear algebra) also matches my ~10 years of experience teaching scientific coding. In addition, students need time to internalise the practical implications of data types. Implicit typing, as is normal for *Python*, hides the concepts of data types, delays internalisation, and results in puzzling over type-related messages many weeks into the courses. In these matters, *Fortran* certainly has a pedagogical advantage. However, the big downside of using any compiled language in teaching is the lack of interactivity.
+In [one of his blog posts](https://loiseaujc.github.io/posts/blog-title/fortran_vs_python.html) [@loiseau:2025], Jean-Christophe Loiseau compares *Fortran* to *Python* for teaching linear algebra. His experience with the pitfalls of using the latter (0-based indexing, strict indentation rules, and relying on external packages for basic linear algebra) also matches my ~10 years of experience teaching scientific coding. In addition, students need time to internalise the practical implications of data types. Implicit typing, as is normal for *Python*, hides the concepts of data types, delays internalisation, and results in puzzling over type-related messages many weeks into the courses. In these matters, *Fortran* certainly has a pedagogical advantage. However, the big downside of using any compiled language in teaching is the lack of interactivity.
 
-Conventional wisdom puts common research needs (performance and speed) at odds with teaching needs (interactivity). However, languages like *Julia* and compilers like `Cling` (C++) and `LFortran` challenge this. Citing from the blog post [Why We Created LFortran](https://lfortran.org/blog/2019/04/why-we-created-lfortran/):
+Conventional wisdom puts common research needs (performance and speed) at odds with teaching needs (interactivity). However, languages like *Julia* and compilers like `Cling` (C++) and `LFortran` challenge this. Citing from the blog post [Why We Created LFortran](https://lfortran.org/blog/2019/04/why-we-created-lfortran/) [@certik:2019]:
 
 > One approach is to take a language like Python and try to make it as fast as possible, while preserving the interactivity and ease of use. One is forced to modify the language a bit so that the compiler can reason about types. That is the approach that Julia took.
 >
 > The other approach is to take our current compiled production languages: C++ and Fortran and try to see how interactive one can make them without sacrificing speed (i.e., without modifying the language). [...] The Fortran language when used interactively (e.g., in a Jupyter notebook) allows similar look and feel as Python or MATLAB, enabling rapid prototyping and exploratory workflow. The same code however offers superior performance when compiled with a good mature compiler, such as the Intel Fortran compiler, because it is just Fortran after all.
 
-`FSML` is developed to support compilation with `LFortran`. Since the library keeps everything in simple and standard *Fortran*, this is fairly easy, provided that the dependency `stdlib` compiles. Using the library with `LFortran` allows educators to leverage the pedagogical advantages of *Fortran* without sacrificing interactivity. The design consideration should also help (early career) researchers with limited coding experience, as well as researchers who prefer to work in Jupyter notebooks.
+`FSML` is developed to support compilation with `LFortran`. Since the library keeps everything in simple and standard *Fortran*, this is fairly easy (from my end), provided that the dependency `stdlib` compiles. Using the library with `LFortran` allows educators to leverage the pedagogical advantages of *Fortran* without sacrificing interactivity. The design consideration should also help (early career) researchers with limited coding experience, as well as researchers who prefer to work in Jupyter notebooks.
 
 
 ## Community
 
-`FSML` is developed with the community in mind. A healthy (online) presence and community is important for any programming language. In context of *Fortran*, that's a point also made by [@kedward:2022] and addressed by the creation of the new [Fortran-lang website](https://fortran-lang.org/) and [Fortran Discourse](https://fortran-lang.discourse.group/). I recently came across the following on the docs pages of Jorge's [PIC](https://github.com/JorgeG94/pic) project), which demonstrates this well:
+`FSML` is developed with the community in mind. A healthy (online) presence and community is important for any programming language. In context of *Fortran*, that's a point also made by [@kedward:2022] and addressed by the creation of the new [Fortran-lang website](https://fortran-lang.org/) and [Fortran Discourse](https://fortran-lang.discourse.group/). I recently came across the following on the docs pages of the [PIC](https://github.com/JorgeG94/pic) project by Jorge Luis Gálvez Vallejo), which demonstrates this well:
 
 > "I found a community of people that I hadn’t found in the C/C++ world and this drove me to start exploring the language a bit more." (Jorge Luis Gálvez Vallejo, 2025)
 
@@ -368,7 +368,7 @@ If you're interested in contributing code, reading the [contributor guidelines](
 :::
 
 ::: {.column width="85%"}
-There is no reason to mention Herbert in this post other than the fact he is acknowledged in the *JOSS* paper [@mutz:2025] and relevant to everything in my life. He is -- by far -- the smartest, proudest, and most glorious pigeon I've ever had the privilege of knowing, and his fame is ever-increasing.
+There is no reason to mention Herbert in this post other than the fact he is acknowledged in the *JOSS* paper [@mutz:2025] and always seems relevant to everything. He is -- by far -- the smartest, proudest, and most glorious pigeon I've ever had the privilege of knowing, and his fame is ever-increasing.
 
 *"Yes, I'm aware of the legend Herbert." (Syed Danish Ali, July 2025)*
 :::
