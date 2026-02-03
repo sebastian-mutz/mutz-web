@@ -10,7 +10,7 @@ title: "pyESD - Python Empirical-Statistical Downscaling"
 :::
 
 ::: {.column width="85%"}
-PyESD is an open-source framework for empirical-statistical downscaling of any climate-related variable such as precipitation, temperature, and wind speed. The package can, for example, downscale General Circulation Model simulations of future climate to high resolution relevant for climate impact assessment such as droughts, flooding, wildfire risk, and others. The package was developed by **Dr. Daniel Boateng** as a PhD student and under supervision of Dr. Sebastian G. Mutz. pyESD's publication in *Geoscientific Model Development* can be accessed [here](https://gmd.copernicus.org/articles/16/6479/2023/).
+PyESD is an open-source framework for empirical-statistical downscaling of any climate-related variable such as precipitation, temperature, and wind speed. The package can, for example, downscale General Circulation Model simulations of future climate to high resolution relevant for climate impact assessment such as droughts, flooding, wildfire risk, and others. The package was developed by **Dr. Daniel Boateng** as a PhD student and under supervision of Dr. Sebastian G. Mutz. pyESD's publication in *Geoscientific Model Development* can be accessed [here](https://doi.org/10.5194/gmd-16-6479-2023).
 
 | Category | Distribution | Source | Licence | Language |
 | :-- | :-- | :-- | :-- | :-- |
@@ -30,7 +30,7 @@ PyESD is an open-source framework of the Perfect Prognosis approach of statistic
 * PyESD features many machine learning algorithms and predictor selection techniques that can be experimented with toward the selection and design of robust transfer functions that can be coupled with GCM to generate future estimates of climate change.
 * And many other functionalities that are highlighted in the paper description of the package
 
-![Typical workflow for using pyESD to downscale climate data before it is used for impact modelling [Boatend and Mutz, 2023](https://gmd.copernicus.org/articles/16/6479/2023/).](img/pyESD_outline.png){ width=100% }
+![Typical workflow for using pyESD to downscale climate data before it is used for impact modelling [Boatend and Mutz, 2023](https://doi.org/10.5194/gmd-16-6479-2023).](img/pyESD_outline.png){ width=100% }
 
 ## Documentation
 
@@ -42,3 +42,23 @@ The full documentation with examples can be found [here](https://dan-boat.github
 This illustrative case study of downscaling temperature and precipitation in a catchment located in southwestern Germany was described in the package description paper of pyESD. All the modeling and analysis scripts are available on GitHub ([PyESD/example/Neckar](https://github.com/Dan-Boat/PyESD/tree/main/examples/Neckar)) and also on Zenodo ([supporting material](https://doi.org/10.5281/zenodo.7767681)). For more details about the findings, we refer to ([Boateng and Mutz, 2023](https://gmd.copernicus.org/preprints/gmd-2023-67/)).
 
 ![Location of weather stations used to train the models (from [Boateng and Mutz, 2023](https://dan-boat.github.io/PyESD/)).](img/pyESDneckar){ width=100% }
+
+
+# Reference
+
+Boateng, D. and Mutz, S. G.: pyESDv1.0.1: an open-source Python framework for empirical-statistical downscaling of climate information, Geosci. Model Dev., 16, 6479–6514, https://doi.org/10.5194/gmd-16-6479-2023, 2023.
+
+**BibTex**:
+```bibtex
+@article{gmd-16-6479-2023,
+author = {Boateng, D. and Mutz, S. G.},
+title = {pyESDv1.0.1: an open-source Python framework for empirical-statistical
+downscaling of climate information},
+journal = {Geoscientific Model Development},
+volume = {16},
+year = {2023},
+number = {22},
+pages = {6479--6514},
+url = {https://gmd.copernicus.org/articles/16/6479/2023/},
+doi = {10.5194/gmd-16-6479-2023} }
+```

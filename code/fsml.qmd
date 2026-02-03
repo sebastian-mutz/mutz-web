@@ -10,7 +10,7 @@ title: "FSML - Fortran Statistics and Machine Learning"
 :::
 
 ::: {.column width="85%"}
-FSML is a modern Fortran statistics and machine learning library suitable for contemporary research problems and teaching. It includes procedures for basic statistics, hypothesis tests, linear and non-linear methods, and statistical distribution functions. The source code (incl. examples and documentation) is available on [GitHub](https://github.com/sebastian-mutz/fsml).
+FSML is a modern Fortran statistics and machine learning library suitable for contemporary research problems and teaching. It includes procedures for basic statistics, hypothesis tests, linear and non-linear methods, and statistical distribution functions. The source code (incl. examples and documentation) is available on [GitHub](https://github.com/sebastian-mutz/fsml), and the associated paper in the *Journal of Open Source Software* can be found [here](https://doi.org/10.21105/joss.09058).
 
 | Category | Distribution | Source | Licence | Language |
 | :-- | :-- | :-- | :-- | :-- |
@@ -29,7 +29,7 @@ FSML consists of a set of accessible and well-documented statistics and ML proce
 - DST: Statistical distribution functions (e.g., the probability density, cumulative distribution, and quantile functions of the Student’s t and generalised Pareto distributions).
 - STS: Basic statistics for describing and understanding data (e.g., mean, variance, correlation).
 - TST: Parametric and non-parametric hypothesis tests (e.g., analysis of variance, Mann–Whitney U).
-- LIN: Statistical procedures relying heavily on linear algebra (e.g., principal component analysis, ridge regression, linear discriminant analysis).
+- LIN: Procedures relying heavily on linear algebra (e.g., principal component analysis, ridge regression, linear discriminant analysis).
 - NLP: Non-linear and algorithmic procedures (e.g., k-means clustering).
 
 ![](img/modules.png){ width=40% }
@@ -83,3 +83,21 @@ The examples below demonstrate the use of FSML interfaces, using double precisio
 
 FSML's repository and handbook includes examples for every public interface.
 
+# Reference
+
+Mutz, S. G., (2025). FSML – A Modern Fortran Statistics and Machine Learning Library. Journal of Open Source Software, 10(116), 9058, [https://doi.org/10.21105/joss.09058](https://doi.org/10.21105/joss.09058)
+
+**BibTex**:
+```bibtex
+@article{Mutz2025,
+author = {Mutz, Sebastian Gerhard},
+title = {FSML – A Modern Fortran Statistics and Machine Learning Library},
+year = {2025},
+journal = {Journal of Open Source Software},
+publisher = {The Open Journal},
+volume = {10},
+number = {116},
+pages = {9058},
+doi = {10.21105/joss.09058},
+url = {https://doi.org/10.21105/joss.09058} }
+```

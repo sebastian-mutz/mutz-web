@@ -125,7 +125,7 @@ title: "Sebastian G. Mutz, Dr. rer. nat. habil."
 | 2020 | Applied Tectonics and Surface Processes | MSc | EN, Matlab | Co-developer, instructor |
 | 2020 | Geological Mapping Course | BSc | DE, EN | Coordinator, instructor |
 | 2019 | Applied Tectonics and Surface Processes | MSc | EN, Matlab | Co-developer, instructor |
-| 2019 | Climate Dynamics, Probability and Statistics | MSc | EN, Matlab | Developer, coordinator, instructor |
+| 2019 | Climate Dynamics, Probability and Statistics | MSc | EN, Python | Developer, coordinator, instructor |
 | 2018 | Applied Tectonics and Surface Processes | MSc | EN, Matlab | Co-developer, instructor |
 | 2018 | Geological Mapping Course | BSc | DE, EN | Coordinator, instructor |
 | 2017 | Applied Tectonics and Surface Processes | MSc | EN, Matlab | Co-developer, instructor |
@@ -214,6 +214,8 @@ title: "Sebastian G. Mutz, Dr. rer. nat. habil."
 
 
 ## Peer-Reviewed Articles
+
+1. Mutz, S. G., (2025). FSML – A Modern Fortran Statistics and Machine Learning Library. Journal of Open Source Software, 10(116), 9058, [https://doi.org/10.21105/joss.09058](https://doi.org/10.21105/joss.09058)
 
 1. Boateng, D., Mutz, S. G., Methner, K., Ballian, A., Meijers, M. J.M., Mulch, A. and Ehlers, T. A. (2025) Refining paleoelevation estimates of the European Alps by simulating Middle Miocene climate and δ18O responses to diachronous surface uplift scenarios. Global and Planetary Change, 251, 104808. [https://doi.org/10.1016/j.gloplacha.2025.104808](https://doi.org/10.1016/j.gloplacha.2025.104808)
 

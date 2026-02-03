@@ -24,4 +24,4 @@ title: "Service"
 | 2025 -- | [Climate and Environmental Science MSc](https://www.gla.ac.uk/postgraduate/taught/climateenvironmentalscience/) programme | Convener and Co-Developer |
 | 2024 -- | [ExaGEO](https://www.exageo.org/) doctoral training programme | Manager and Co-Investigator |
 | 2024 -- | *Maths/Stats meets GeoX*, interdepartmental initiative | Co-Leader |
-| 2024 | Environmental Futures: Sustinable Systems MSc programme | Convener |
+| 2024 | Environmental Futures: Sustainable Systems MSc programme | Convener |

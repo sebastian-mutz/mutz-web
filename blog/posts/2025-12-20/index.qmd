@@ -1,12 +1,12 @@
 ---
 title: "Fortran Statistics and Machine Learning"
-description: "First release of FSML (v0.1.0), a modern Fortran statistics and machine learning library"
+description: "First release of FSML (v0.1.0), a Modern Fortran statistics and machine learning library"
 author:
   - name: Sebastian G. Mutz
     url: mutz.science
     orcid: 0000-0001-8180-6150
     affiliation: School of Geographical and Earth Sciences, University of Glasgow
-date: 2025-11-01
+date: 2025-12-20
 categories: [Fortran, statistics, machine learning, software, development update]
 # citation:
 #   url: post url
@@ -17,7 +17,7 @@ from: markdown+emoji
 ---
 
 
-I'm happy to announce the first official release of `FSML` (*Fortran Statistics and Machine Learning*). It is a modern *Fortran* toolkit for statistics and machine learning (ML), suitable for contemporary research problems and teaching. Here, I expand on what I've written for the corresponding paper [@mutz:2025] in the *Journal of Open Source Software*. I provide more context for the library (or "package"), explain some of the design choices, and share some thoughts on where I see its role (or niche) in the *Fortran* software ecosystem, empirical research, and teaching. The code is hosted on [GitHub](https://github.com/sebastian-mutz/fsml/) and the *html* documentation can be found on [fsml.mutz.science](https://fsml.mutz.science/).
+I'm happy to announce the first official release of `FSML` (*Fortran Statistics and Machine Learning*). It is a Modern *Fortran* toolkit for statistics and machine learning (ML), suitable for contemporary research problems and teaching. Here, I expand on what I've written for the corresponding paper [@mutz:2025] in the *Journal of Open Source Software*. I provide more context for the library (or "package"), explain some of the design choices, and share some thoughts on where I see its role (or niche) in the *Fortran* software ecosystem, empirical research, and teaching. The code is hosted on [GitHub](https://github.com/sebastian-mutz/fsml/) and the *html* documentation can be found on [fsml.mutz.science](https://fsml.mutz.science/).
 
 
 
@@ -40,7 +40,7 @@ I often feel that many domain-specific advantages of *Fortran* over other langua
 :::
 
 ::: {.column width="80%"}
-- **High-performance**: *Fortran* is designed to handle computationally intensive tasks and often adopted for high-performance computing and numerical modelling in the sciences [e.g., @giorgetta:2018]. This includes battle-tested older code, as well as new models written from scratch in modern *Fortran*. Related to this, static and strong typing allows compilers to catch errors early, make optimisations, and generate extremely efficient binary code.
+- **High-performance**: *Fortran* is designed to handle computationally intensive tasks and often adopted for high-performance computing and numerical modelling in the sciences [e.g., @giorgetta:2018]. This includes battle-tested older code, as well as new models written from scratch in Modern *Fortran*. Related to this, static and strong typing allows compilers to catch errors early, make optimisations, and generate extremely efficient binary code.
 
 - **Mature and well supported**: *Fortran* is a mature and reliable general purpose programming language with great compiler support. There are multiple open-source *Fortran* compilers like the well-established *GFortran* and new *LLVM*-based *LFortran* and *Flang*.
 
@@ -48,14 +48,14 @@ I often feel that many domain-specific advantages of *Fortran* over other langua
 
 - **Energy-efficient**: *Fortran* is more energy-efficient than other high-level programming languages [@pereira:2021]. This is a factor that users may want to explore, esp. as the widespread adoption of computationally intensive methods increases electricity consumption [@jia:2024], adds more stress on Earth’s climate and environments, and creates new challenges as a consequence [e.g., @dodge:2022; @freitag:2021].
 
-- **Easy to learn**: This may surprise a few. Due to the previous lack of modern tooling, online resources, and interactively (i.e. points currently addressed by the community), you faced barriers in learning *Fortran* that you didn't face with other popular languages. However, the language itself is fairly small and easy to learn, and the growing modern ecosystem and community is slowly but surely removing these barriers.
+- **Easy to learn**: This may surprise a few. Due to the previous lack of modern tooling, online resources, and interactively (i.e. points currently addressed by the community), you faced barriers in learning *Fortran* that you didn't face with other popular languages. However, the language itself is fairly small and easy to learn, and the growing Modern ecosystem and community is slowly but surely removing these barriers.
 :::
 :::
 
 
 ## FORTRAN ≠ Fortran ≠ Fortran-lang Fortran
 
-The slow adoption of *Fortran* in general can be attributed to a number of factors that are summarised nicely by @kedward:2022. Among them are 1) an unfamiliarity of modern *Fortran* features, 2) a lack of modern tooling, and 3) a modest online presence and community. I caught myself nodding a lot when reading this paper. I've been using *Fortran* for over 17 years, supervised students using *Fortran*, and frequently talked to colleagues about their gripes with the language. Most issues aren't with the language itself, but with the lack of modern tooling and convenient online resources (points 2 and 3). Without these, more time needs to be invested to produce the same research results -- time that students and (early career) researchers don't have in modern academia. Gripes with the language itself typically involve complaints about (old) *FORTRAN* and supposedly missing features that have been part of standard (modern) *Fortran* for over two decades (point 1). It's easy to understand an aversion if your experience with the language is limited to *FORTRAN*, of course. To demonstrate:
+The slow adoption of *Fortran* in general can be attributed to a number of factors that are summarised nicely by @kedward:2022. Among them are 1) an unfamiliarity of Modern *Fortran* features, 2) a lack of modern tooling, and 3) a modest online presence and community. I caught myself nodding a lot when reading this paper. I've been using *Fortran* for over 17 years, supervised students using *Fortran*, and frequently talked to colleagues about their gripes with the language. Most issues aren't with the language itself, but with the lack of modern tooling and convenient online resources (points 2 and 3). Without these, more time needs to be invested to produce the same research results -- time that students and (early career) researchers don't have in modern academia. Gripes with the language itself typically involve complaints about (old) *FORTRAN* and supposedly missing features that have been part of standard (modern) *Fortran* for over two decades (point 1). It's easy to understand an aversion if your experience with the language is limited to *FORTRAN*, of course. To demonstrate:
 
 ::: columns
 
@@ -131,7 +131,7 @@ The slow adoption of *Fortran* for statistics and ML can probably be attributed 
 - `DST`: Statistical distribution functions (e.g., the probability density, cumulative distribution, and quantile functions of the Student’s t distribution, generalised Pareto distribution and more).
 - `STS`: Basic statistics for describing and understanding data (e.g., mean, variance, correlation).
 - `TST`: Parametric and non-parametric hypothesis tests (e.g., analysis of variance, Mann–Whitney U).
-- `LIN`: Statistical procedures relying heavily on linear algebra (e.g., principal component analysis, ridge regression, linear discrimination).
+- `LIN`: Procedures relying heavily on linear algebra (e.g., principal component analysis, ridge regression, linear discrimination).
 - `NLP`: Non-linear and algorithmic procedures (e.g., k-means clustering).
 
 Interfaces with the prefix `fsml_` are part of the public interface, accessed through `use fsml`. A comprehensive list of currently covered procedures can be found in the [API Reference](https://fsml.mutz.science/page/api/index.html).
@@ -143,7 +143,7 @@ Interfaces with the prefix `fsml_` are part of the public interface, accessed th
 
 The library has minimal requirements.
 
-- Modern standard: It uses *Fortran* 2008 features.
+- Modern standard: It uses Fortran 2008 features.
 - Depdencies: The standard library (`stdlib`) for linear algebra.
 - Building and distributing: The *Fortran Package Manager* (`fpm`).
 - Compilers: `GFortran` or `LFortran`.
@@ -158,7 +158,8 @@ Currently, `LFortran` does not compile `stdlib` and therefore cannot be used.
 
 A lot of the library consists of reworked and modernised research code of mine. I will continue to rewrite and merge my previous work with `FSML`, as well as add new methods as needed by users (if they fit the scope). This includes:
 
-- Random Forests, Bayesian classifiers, multivariate Gaussian integrals, and more.
+- Random Forests, Bayesian classifiers, Generalised Linear Models, Generalised Additive Models.
+- Support for more statistical distributions, and multivariate Gaussian integrals.
 - Model performance metrics (e.g., RMSE).
 - Frameworks for model training and validation (e.g., subsampling and cross-validation).
 - Procedures for reading, writing, and basic data processing.
@@ -199,7 +200,7 @@ A lot of the library consists of reworked and modernised research code of mine. 
 
 ## Project Background
 
-In the early 2010s, I moved a lot of the *FORTRAN* statistics procedures I wrote (and commonly used) into a single module. It kept growing and I eventually re-implemented it in modern *Fortran*, organised it into several modules, started using *LAPACK* for linear algebra, wrote a Makefile for it, and started using it as a "proper" library. By ~2015, the then-called `fstat` library (not to be confused with the actively developed [FStats](https://github.com/jchristopherson/fstats)) included many of the statistical procedures now found in `FSML`, as well as a number of ML procedures for Bayesian learning, Random Forests, and clustering. It wasn't perfect, but served its purpose [e.g., @mutz:2016; @mutz:2019]
+In the early 2010s, I moved a lot of the *FORTRAN* statistics procedures I wrote (and commonly used) into a single module. It kept growing and I eventually re-implemented it in Modern *Fortran*, organised it into several modules, started using *LAPACK* for linear algebra, wrote a Makefile for it, and started using it as a "proper" library. By ~2015, the then-called `fstat` library (not to be confused with the actively developed [FStats](https://github.com/jchristopherson/fstats)) included many of the statistical procedures now found in `FSML`, as well as a number of ML procedures for Bayesian learning, Random Forests, and clustering. It wasn't perfect, but served its purpose [e.g., @mutz:2016; @mutz:2019]
 
 ::: columns
 
@@ -211,7 +212,7 @@ In the early 2010s, I moved a lot of the *FORTRAN* statistics procedures I wrote
 :::
 
 ::: {.column width="70%"}
-When I saw the growing online community and visible interest in all things *Fortran*, I thought it a good idea to open up my research toolbox, rewrite and improve some of the code, document it well, and share it with the community. I took this opportunity to also change some conventions in my code (e.g., for precision handling, pure procedures, and use of intrinsics). At the same time, I discovered `fpm`, `stdlib` and `LFortran` and decided to take these into consideration when rewriting my code. So `stdlib`'s linear algebra interfaces replaced standalone *LAPACK*, `fpm` replaced the Makefile for building, and `FSML` is developed to support compilation with `LFortran` -- being able to use statistics and ML procedures interactively in Jupyter notebooks would sure make *Fortran* more accessible to students and early career researchers (but more on that later). There is still some code I have not yet rewritten and included (and then there is more code not related to statistics and ML that may be worth sharing).
+When I saw the growing online community and visible interest in all things *Fortran*, I thought it a good idea to open up my research toolbox, rewrite and improve some of the code, document it well, and share it with the community. I took this opportunity to also change some conventions in my code (e.g., for precision handling, pure procedures, and use of intrinsics). At the same time, I discovered `fpm`, `stdlib` and `LFortran` and decided to take these into consideration when rewriting my code. So `stdlib`'s linear algebra interfaces replaced standalone *LAPACK*, `fpm` replaced the Makefile for building, and `FSML` is developed to support compilation with `LFortran` -- being able to use statistics and ML procedures interactively in *Jupyter* notebooks would sure make *Fortran* more accessible to students and early career researchers (but more on that later). There is still some code I have not yet rewritten and included (and then there is more code not related to statistics and ML that may be worth sharing).
 
 :::
 :::
@@ -318,9 +319,9 @@ Conventional wisdom puts common research needs (performance and speed) at odds w
 
 > One approach is to take a language like Python and try to make it as fast as possible, while preserving the interactivity and ease of use. One is forced to modify the language a bit so that the compiler can reason about types. That is the approach that Julia took.
 >
-> The other approach is to take our current compiled production languages: C++ and Fortran and try to see how interactive one can make them without sacrificing speed (i.e., without modifying the language). [...] The Fortran language when used interactively (e.g., in a Jupyter notebook) allows similar look and feel as Python or MATLAB, enabling rapid prototyping and exploratory workflow. The same code however offers superior performance when compiled with a good mature compiler, such as the Intel Fortran compiler, because it is just Fortran after all.
+> The other approach is to take our current compiled production languages: C++ and Fortran and try to see how interactive one can make them without sacrificing speed (i.e., without modifying the language). [...] The Fortran language when used interactively (e.g., in a *Jupyter* notebook) allows similar look and feel as Python or MATLAB, enabling rapid prototyping and exploratory workflow. The same code however offers superior performance when compiled with a good mature compiler, such as the Intel Fortran compiler, because it is just Fortran after all.
 
-`FSML` is developed to support compilation with `LFortran`. Since the library keeps everything in simple and standard *Fortran*, this is fairly easy (from my end), provided that the dependency `stdlib` compiles. Using the library with `LFortran` allows educators to leverage the pedagogical advantages of *Fortran* without sacrificing interactivity. The design consideration should also help (early career) researchers with limited coding experience, as well as researchers who prefer to work in Jupyter notebooks.
+`FSML` is developed to support compilation with `LFortran`. Since the library keeps everything in simple and standard *Fortran*, this is fairly easy (from my end), provided that the dependency `stdlib` compiles. Using the library with `LFortran` allows educators to leverage the pedagogical advantages of *Fortran* without sacrificing interactivity. The design consideration should also help (early career) researchers with limited coding experience, as well as researchers who prefer to work in *Jupyter* notebooks.
 
 
 ## Community
