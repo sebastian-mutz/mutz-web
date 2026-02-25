@@ -16,15 +16,10 @@ I'm a computational climatologist ([associate professor](https://www.gla.ac.uk/s
 
 # Affiliations
 
-| UofG | Climate Dynamics | EGU | ESM-AI | ParsQuake |
-| :--: | :--: | :--: | :--: | :--: |
-| [![](img/UoG_colour.png){height=100}](https://www.gla.ac.uk/schools/ges/) | [![](img/climatedynamics.png){height=100}](https://mutz.science/) | [![](img/egu.png){height=100}](https://www.egu.eu/) | [![](img/sagesEsmAI.png){height=100}](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) | [![](img/parsquake.png){height=100}](https://fortran-lang.org/) |
-
-<!---
-| UofG | Climate Dynamics | EGU | ESM-AI | ParsQuake | Fortran-lang |
+| Climate Dynamics | EGU | ESM-AI | ParsQuake | UofG | Fortran-lang |
 | :--: | :--: | :--: | :--: | :--: | :--: |
-| [![](img/UoG_colour.png){height=100}](https://www.gla.ac.uk/schools/ges/) | [![](img/climatedynamics.png){height=100}](https://mutz.science/) | [![](img/egu.png){height=100}](https://www.egu.eu/) | [![](img/sagesEsmAI.png){height=100}](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) | [![](img/parsquake.png){height=100}](https://parsquake.org/) | [![](img/fortran.png){height=100}](https://fortran-lang.org/) |
---->
+| [![](img/climatedynamics.png){height=100}](https://mutz.science/) | [![](img/egu.png){height=100}](https://www.egu.eu/) | [![](img/sagesEsmAI.png){height=100}](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) | [![](img/parsquake.png){height=100}](https://parsquake.org/) | [![](img/UoG_colour.png){height=100}](https://www.gla.ac.uk/schools/ges/) | [![](img/fortran.png){height=100}](https://fortran-lang.org/) |
+
 
 # Climate Dynamics Lab
 
@@ -40,5 +35,5 @@ Information about open positions, supervision, and other opportunities can be fo
 | :- | :---- |
 | E-mail | [sebastian@mutz.science](mailto:sebastian@mutz.science), [sebastian.mutz@glasgow.ac.uk](mailto:sebastian.mutz@glasgow.ac.uk) (for university matters) |
 | Research Profiles | [ORCID](https://orcid.org/0000-0001-8180-6150), [ResearchGate](https://www.researchgate.net/profile/Sebastian-Mutz), [Google Scholar](https://scholar.google.com/citations?user=elDHEVMAAAAJ), [University Profile](https://www.gla.ac.uk/schools/ges/staff/sebastianmutz/) |
-| Code and Community | [GitHub](https://github.com/sebastian-mutz), [Fortran Discourse](https://fortran-lang.discourse.group/u/fxm/),  [LinkedIn](https://www.linkedin.com/in/sebastian-gerhard-m-5b9952210/), [Bluesky](https://bsky.app/profile/sebastian-mutz.bsky.social), [Ex-Twitter](https://x.com/sebastian_mutz) (XCOM is a game) |
+| Code and Community | [GitHub](https://github.com/sebastian-mutz), [Codeberg](https://codeberg.org/sgm), [Fortran Discourse](https://fortran-lang.discourse.group/u/fxm/),  [LinkedIn](https://www.linkedin.com/in/sebastian-gerhard-m-5b9952210/), [Bluesky](https://bsky.app/profile/sebastian-mutz.bsky.social) |
 
