@@ -1,0 +1,84 @@
+/* css styles */
+
+/* blockquotes */
+blockquote {
+  background-color: #d1e6ed;
+  border-left: 5px solid #4ab3d9;
+  padding: 0.75em 1em;
+  border-radius: 4px;
+}
+
+/* basic caption styles */
+figure > figcaption,
+figure > p.caption,
+div.figure > p.caption,
+p.caption,
+figcaption.quarto-float-caption,
+figcaption.quarto-subfloat-caption,
+.quarto-float-caption,
+.quarto-subfloat-caption {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.9em;
+  line-height: 1.2;
+  padding: 0.25rem 0.5rem;
+  border-radius: 2px;
+  color: #757980;
+  background: #e8e8e8;
+  border-left: 3px solid #c0c0c0;
+  border-right: 3px solid #c0c0c0;
+}
+
+/* background colour */
+body {
+  background-color: #ffffff;
+}
+
+/* font */
+body, p, h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #49525c;
+  font-weight: 400;
+}
+
+/* horizontal rule */
+hr {
+  border: 2px solid #7186a6;
+}
+
+/* in-line (only) code formatting */
+p > code,
+li > code,
+span > code {
+  background-color: #d3d8de !important;
+  color: #308eb0;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* flowcharts */
+:root {
+  --mermaid-edge-color: #757980; /* arrow / line colour */
+}
+
+
+
+/* fully styled PDF */
+@media print {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12pt;
+  }
+  th, td {
+    border: 0.5pt solid #cccccc;  /* <-- absolute, tiny border */
+    padding: 3pt 4pt;           /* reduce padding for paper */
+  }
+  thead {
+    background-color: #f0f0f0 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .table-wrapper {
+    overflow: visible !important;
+  }
+

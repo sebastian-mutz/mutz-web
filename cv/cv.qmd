@@ -1,26 +1,37 @@
 ---
 title: "Sebastian G. Mutz, Dr. rer. nat. habil."
+format:
+  html:
+    toc: false
+
+  pdf:
+    pdf-engine: wkhtmltopdf
+    css: pdf_style.css
+    toc: false
+
+execute:
+  echo: false
 ---
 
 # <span style="color:#38967c"> Basic Information </span>
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="40%"}
 
-#### Institute
+### Institute
 
 | | |
 | :- | :---- |
 | Position | Senior Lecturer (Associate Professor) |
-| Affiliation | School of Geographical and Earth Sciences, University of Glasgow, UK |
+| Affiliation | University of Glasgow, School of Geographical and Earth Sciences, UK |
 :::
 
 ::: {.column width="5%"}
 :::
 
-::: {.column width="45%"}
+::: {.column width="55%"}
 
-#### Web
+### Web
 
 | | |
 | :- | :---- |
@@ -86,7 +97,7 @@ title: "Sebastian G. Mutz, Dr. rer. nat. habil."
 ## Supervision
 
 | Type | Number | Comment |
-| :-- | :- | :---- |
+| :--- | :- | :------ |
 | Postdoctoral Researcher | 2 | University of Tübingen(2) |
 | Doctoral Student | 2 | University of Glasgow(1), University of Tübingen(1) |
 | Master Student (Research) | 14 | University of Glasgow(1), University of Tübingen(13) |
@@ -133,10 +144,10 @@ title: "Sebastian G. Mutz, Dr. rer. nat. habil."
 | 2016 | Applied Tectonics and Surface Processes | MSc | EN, Matlab | Co-developer, instructor |
 | 2016 | Geological Mapping Course | BSc | DE, EN | Instructor |
 
-### Invited Talks and Teaching
+### Invited Talks and Teaching (Selected)
 
 | Year | Course/Event | Institute |
-| :- | :------ | :------ |
+| :- | :----- | :--- |
 | 2025 | Communicating Uncertainty in Science (lecture) | University of Tübingen |
 | 2023 | Colloquium (Earth system modelling) | University of Freiburg |
 | 2021 | Colloquium (machine learning and climate science) | University of Tübingen |
@@ -151,7 +162,7 @@ title: "Sebastian G. Mutz, Dr. rer. nat. habil."
 ## Professional Societies and Development of Others
 
 | Years | Project or Organisation | Role |
-| :-- | :-- | :-- |
+| :- | :----- | :--- |
 | 2025 | [Fortran-lang](https://fortran-lang.org/) at [Google Summer of Code](https://summerofcode.withgoogle.com/) | Mentor |
 | 2024 -- | [Exascale Computing for Earth, Environmental, and Sustainability Solutions](https://www.exageo.org/) (ExaGEO) | Manager / Executive Committee Member |
 | 2024 -- | [Earth System Modelling and Artificial Intelligence](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) (SAGES) | Executive Committee Member |
@@ -166,8 +177,9 @@ title: "Sebastian G. Mutz, Dr. rer. nat. habil."
 ## University Service (Only Recent)
 
 | Years | Project or Organisation | Role |
-| :-- | :-- | :-- |
+| :- | :----- | :--- |
 | 2025 -- | [Climate and Environmental Science MSc](https://www.gla.ac.uk/postgraduate/taught/climateenvironmentalscience/) programme | Convener and Co-Developer |
+| 2025 -- | GenAI strategy group for learning and teaching at the College of Science and Engineering | Member |
 | 2024 -- | [ExaGEO](https://www.exageo.org/) doctoral training programme | Manager and Co-Investigator |
 | 2024 -- | *Maths/Stats meets GeoX*, interdepartmental initiative | Co-Leader |
 | 2024 | Environmental Futures: Sustinable Systems MSc programme | Convener |
@@ -180,7 +192,7 @@ title: "Sebastian G. Mutz, Dr. rer. nat. habil."
 ## Service Roles
 
 | Years | Project or Organisation | Role |
-| :-- | :-- | :-- |
+| :- | :----- | :--- |
 | 2024 -- | [EGU Outreach Committee](https://www.egu.eu/outreach/) | Member |
 | 2024 -- | [EGU Teacher-Scientist Pairing Scheme](https://www.egu.eu/news/1205/egus-teacher-scientist-pairing-scheme-2025-apply-now-to-co-create-a-video-lesson-for-schools/) | Leader, Co-Developer |
 | 2021 -- | [INTEGRATE Project](http://integrate.mutz.science) | Leader, Developer |
