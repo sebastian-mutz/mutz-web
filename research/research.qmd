@@ -10,7 +10,7 @@ title: "Research"
 :::
 
 ::: {.column width="85%"}
-I study climate system dynamics - how atmosphere, cryosphere, land surface, and other climate system components interact over short (monthly) and geological (millions of years) time scales. I also model and predict the impacts that climate change has and will have on glaciers, extreme weather, and more. I employ theory-driven and data-driven (statistical and machine learning) models on different hardware -- from single-board computers to petaflops supercomputers and GPU-based clusters. Find out more on the [Climate Dynamics Lab](https://mutz.science/) website.
+I study how atmosphere, cryosphere, land surface, and other climate system components interact over short (monthly) and geological (millions of years) time scales. I also model and predict the impacts that climate change has and will have on glaciers, extreme weather, and more. I employ theory-driven and data-driven (statistical and machine learning) models on different hardware -- from single-board computers to petaflops supercomputers and GPU-based clusters. Find out more on the [Climate Dynamics Lab](https://mutz.science/) website.
 :::
 :::
 
