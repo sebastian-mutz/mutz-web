@@ -5,7 +5,7 @@ title: "Outreach"
 # Service Roles
 
 | Years | Project or Organisation | Role |
-| :-- | :-- | :-- |
+| :- | :----- | :--- |
 | 2024 -- | [EGU Outreach Committee](https://www.egu.eu/outreach/) | Member |
 | 2024 -- | [EGU Teacher-Scientist Pairing Scheme](https://www.egu.eu/news/1205/egus-teacher-scientist-pairing-scheme-2025-apply-now-to-co-create-a-video-lesson-for-schools/) | Leader, Co-Developer |
 | 2021 -- | [INTEGRATE Project](http://integrate.mutz.science) | Leader, Developer |
@@ -21,16 +21,17 @@ title: "Outreach"
 
 # Public Talks and Videos (Examples)
 
+* 2024 -- now - Leader of EGU’s Teacher-Scientist Pairing Scheme to connect school teachers and scientist to co-design and record lessons together
+* 2024 - "Palaeoclimate: What we can learn from climates of the past", VHS Inzighofen, Germany
+* 2022 - [Video lesson on Proxies in Palaeoclimatology](https://www.youtube.com/watch?v=_A0O8qacHok)
 * 2022 - “On Climate Change, Climate Mitigation and the Prisoner's Dilemma", Reutlingen
 * 2021 - Video for [GeoPark Maestrazgo](https://geoparques.es/en/portfolio_page/maestrazgo-en/), Producer
 * 2021 - “Caught in the web of climate change: On melting, sliding and running away”, Reutlingen
 * 2019 - [UN Forum on Science, Technology and Innovation, NY (USA)](https://drive.google.com/file/d/1rpEx8PtRWS38KoznPGlGt7k911X1WrmS/view), Co-author of GfGD statement
-
-
+* 2018 - [10 Earthquake video lessons for schools](https://parsquake.org/resources.html) published and tested  ([Read more](https://doi.org/10.5194/gc-4-281-2021))
 
 # Articles and Conference Abstracts
 
 * 2021 - Using paired teaching for earthquake education in schools ([Read more](https://gc.copernicus.org/articles/4/281/2021/))
 * 2021 - A blended learning approach to structural field mapping: combining local geology, virtual geology, and web-based tools ([Read more](https://doi.org/10.5194/egusphere-egu21-3581))
 * 2020 - Paired teaching approach to earthquake education: a cross-country comparison between Dushanbe, Tajikistan and London, United Kingdom ([Read more](https://doi.org/10.5194/egusphere-egu2020-11230))
-

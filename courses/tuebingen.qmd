@@ -14,11 +14,11 @@ css: styles.css
 
 ::: {.column width="80%"}
 
-In this course, students have "the opportunity to develop a deeper understanding of how decisions are made under uncertainty, and how communicating uncertainty effectively can help with making more informed decisions even when the outcomes are not fully predictable." [S. Mohadjer]. The course was offered through Global Awareness Education, as part of the [Transdisciplinary Course Program and Career Service (TRACS)](https://uni-tuebingen.de/en/facilities/administration/iii-academic-affairs/transdisciplinary-course-program-and-career-service/)
+In this course, students have "the opportunity to develop a deeper understanding of how decisions are made under uncertainty, and how communicating uncertainty effectively can help with making more informed decisions even when the outcomes are not fully predictable." [S. Mohadjer]. The course was offered through Global Awareness Education, as part of the [Transdisciplinary Course Program and Career Service (TRACS)](https://uni-tuebingen.de/en/facilities/administration/iii-teaching-and-learning/transdisciplinary-course-program-and-career-service/)
 
 | Contributions | Taught | Level | Language |
 | :-------- | :-- | :-- | :-- |
-| Session developer/intstructor for uncertainty | 2025 | All | English |
+| Session developer/intstructor for uncertainty | 2025 -- | All | English |
 :::
 :::
 

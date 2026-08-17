@@ -49,8 +49,7 @@ execute:
 
 
 
-
-
+</br>
 
 # <span style="color:#38967c"> Academic Qualifications </span>
 
@@ -62,6 +61,8 @@ execute:
 
 
 
+
+</br>
 
 # <span style="color:#38967c"> Positions </span>
 
@@ -75,6 +76,8 @@ execute:
 
 
 
+
+</br>
 
 # <span style="color:#38967c"> Research Grants and Awards </span>
 
@@ -92,19 +95,23 @@ execute:
 
 
 
+</br>
+
 # <span style="color:#38967c"> Teaching and Supervision </span>
 
 ## Supervision
 
-| Type | Number | Comment |
+| Type | Number | Comment (while at listed institute) |
 | :--- | :- | :------ |
 | Postdoctoral Researcher | 2 | University of Tübingen(2) |
-| Doctoral Student | 3 | University of Glasgow(2), University of Tübingen(1) |
+| Doctoral Student | 5 | University of Glasgow(4), University of Tübingen(1) |
 | Master Student (Research) | 14 | University of Glasgow(1), University of Tübingen(13) |
-| Master Student (Taught) | 13 | University of Glasgow(13) |
+| Master Student (Taught) | 17 | University of Glasgow(17) |
 | Bachelor Student | 13 | University of Glasgow(10), University of Tübingen(3) |
 
-**Note**: Only significant contributions to supervision are listed. Student details are not provided for privacy reasons.
+**Note**: Only significant contributions to supervision are listed. Student details are not provided to protect their privacy.
+
+</br>
 
 ## Taught Courses
 
@@ -112,23 +119,33 @@ execute:
 
 | Year | Course | Level | Language | Role |
 | :- | :---- | :- | :- | :--- |
-| 2025 | Theoretical and Applied Climatology | MSc | EN, Python, Fortran | Developer, coordinator, instructor |
-| 2025 | Global Challenges (climate block) | MSc | EN | Co-developer, instructor |
-| 2025 | Geography 2 (physical climatology block) | 2 | EN | Developer, instructor |
-| 2025 | Introduction to Climate Change and Sustainability | All | EN | Co-developer, instructor |
-| 2025 | Graduate Futures Work Placement | MSc | EN | Co-coordinator |
-| 2024 | Theoretical and Applied Climatology | MSc | EN, Python | Developer, coordinator, instructor |
-| 2024 | Global Challenges (climate lecture) | MSc | EN | Developer, instructor |
-| 2024 | Geography 2 (physical climatology block) | 2 | EN | Developer, instructor |
-| 2024 | Introduction to Climate Change and Sustainability | All | EN | Co-developer, instructor |
-| 2024 | Geographical - Geological Field Course | 2 | EN | Instructor |
-| 2023 | Introduction to Climate Change and Sustainability | All | EN | Co-developer, instructor |
-| 2023 | Geomorphological Field Course | 2 | EN | Instructor |
+| 2026/27 | Theoretical and Applied Climatology | MSc | EN, Python, Fortran | Developer, coordinator, instructor |
+| 2026/27 | Global Challenges (climate block) | MSc | EN | Co-developer, instructor |
+| 2026/27 | Graduate Futures Work Placement | MSc | EN | Co-coordinator, instructor |
+| 2026/27 | Research Skills (numerical modelling) | 4 | EN | Instructor |
+| 2026/27 | Geography 2 (physical climatology block) | 2 | EN | Developer, instructor |
+| 2025/26 | Theoretical and Applied Climatology | MSc | EN, Python, Fortran | Developer, coordinator, instructor |
+| 2025/26| Global Challenges (climate block) | MSc | EN | Co-developer, instructor |
+| 2025/26 | Graduate Futures Work Placement | MSc | EN | Co-coordinator |
+| 2025/26 | Environmental Geoscience Skills | 4 | EN | Instructor |
+| 2025/26 | Geography 2 (physical climatology block) | 2 | EN | Developer, instructor |
+| 2025/26 | Introduction to Climate Change and Sustainability | All | EN | Co-developer, instructor |
+| 2024/25 | Theoretical and Applied Climatology | MSc | EN, Python | Developer, coordinator, instructor |
+| 2024/25 | Global Challenges (climate block) | MSc | EN | Developer, instructor |
+| 2024/25 | Geography 2 (physical climatology block) | 2 | EN | Developer, instructor |
+| 2024/25 | Introduction to Climate Change and Sustainability | All | EN | Co-developer, instructor |
+| 2024/25 | Geographical - Geological Field Course (Spireslack) | 2 | EN | Instructor |
+| 2023/24 | Introduction to Climate Change and Sustainability | All | EN | Co-developer, instructor |
+| 2023/24 | Geomorphological Field Course (Glen Ogle) | 2 | EN | Instructor |
+
+</br>
 
 ### University of Tübingen
 
 | Year | Course | Level | Language | Role |
 | :- | :---- | :- | :- | :--- |
+| 2026 | Uncertainty Communication (TRACS) | All | EN | Co-developer, instructor |
+| 2025 | Uncertainty Communication (TRACS) | All | EN | Co-developer, instructor |
 | 2022 | Physics of the Earth’s Surface | MSc | EN, Matlab | Co-developer, instructor |
 | 2022 | Geological Mapping Course | BSc | DE, EN | Instructor |
 | 2021 | Physics of the Earth’s Surface | MSc | EN, Matlab | Co-developer, instructor |
@@ -144,18 +161,29 @@ execute:
 | 2016 | Applied Tectonics and Surface Processes | MSc | EN, Matlab | Co-developer, instructor |
 | 2016 | Geological Mapping Course | BSc | DE, EN | Instructor |
 
+</br>
+
 ### Invited Talks and Teaching (Selected)
 
 | Year | Course/Event | Institute |
 | :- | :----- | :--- |
-| 2025 | Communicating Uncertainty in Science (lecture) | University of Tübingen |
+| 2026 | Guest lecture (scientific uncertainty) | University of Tübingen |
+| 2026 | Invited presentation (Regional International Statistical Institute Conference) | ISI Regional Conference |
+| 2026 | Colloquium (Palaeoclimate Modelling Group) | University of Bristol |
+| 2025 | Guest lecture (scientific uncertainty) | University of Tübingen |
 | 2023 | Colloquium (Earth system modelling) | University of Freiburg |
+| 2022 | Climate teaching resources (INTEGRATE project) | EGU General Assembly |
 | 2021 | Colloquium (machine learning and climate science) | University of Tübingen |
 | 2019 | Systemanalyse (lecture) | University of Tübingen |
 | 2019 | Summer school (machine learning) | Karlsruhe Institute of Technology |
 | 2016 | Scientific Instruments (lecture) | International Centre for Ethics in the Sciences and Humanities, Tübingen |
 | 2015 | Colloquium | GfGD Annual Conference, Geological Society of London |
 | 2014 | Colloquium | University of Tübingen |
+
+
+
+
+</br>
 
 # <span style="color:#38967c"> Service </span>
 
@@ -166,7 +194,7 @@ execute:
 | 2026 | [Fortran-lang](https://fortran-lang.org/) work placement | Mentor |
 | 2025 | [Fortran-lang](https://fortran-lang.org/) at [Google Summer of Code](https://summerofcode.withgoogle.com/) | Mentor |
 | 2024 -- | [Exascale Computing for Earth, Environmental, and Sustainability Solutions](https://www.exageo.org/) (ExaGEO) | Manager / Executive Committee Member |
-| 2024 -- | [Earth System Modelling and Artificial Intelligence](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) (SAGES) | Executive Committee Member |
+| 2024 -- | [Earth System Modelling and Artificial Intelligence](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) (SAGES) | Steering Committee Member |
 | 2023 -- | [Earth System Dynamics](https://www.earth-system-dynamics.net/) Editorial Board | Associate Editor |
 | 2022 -- | [Geoscience Communication](https://www.geoscience-communication.net/) Editorial Board | Associate Editor |
 | 2022, 2023 | [EGU’s mentoring programme](https://www.egu.eu/outreach/mentoring/)| Mentor |
@@ -175,22 +203,51 @@ execute:
 | 2009 -- | Peer-Review Journals (e.g., *Geophysical Research Letters*, *Geoscientific Model Development*) | Article Reviewer |
 
 
+
+
+</br>
+
+## External Event Organisation for the Development of Others
+
+| Years | Event | Role |
+| :- | :--------- | :--- |
+| 2026 | “Teacher-Scientist Networking Event" (networking event at EGU GA) | Co-organiser |
+| 2026 | “Fortran for Earth and Planetary Sciences" (networking event at EGU GA) | Organiser |
+| 2026 | “Get your writing right: A hands-on, participatory workshop to help improve writing skills” (workshop at EGU GA) | Co-convener |
+| 2026 | “How to publish my geoscience communication work: A hands-on, participatory workshop.” (workshop at EGU GA) | Co-convener |
+| 2025 | “EGU's Teacher-Scientist Pairing Scheme: Extreme Climate Events - Preparing for Disaster” (live teachingevent at EGU GA) | Organiser |
+| 2025 | “Scientists and School Teachers Matchmaking Event ” (live teachingevent at EGU GA) | Organiser |
+| 2025 | “How to communicate uncertainty to non-expert audiences?” (networking event at EGU GA) | Organiser |
+| 2025 | “Contributing to best-practice in geoscience communication by publishing" (workshop at EGU GA) | Co-convener |
+| 2024 | "How do I make my geoscience communication publishable?” (workshop at EGU GA) | Co-convener |
+| 2022 | “Biogeomorphology and Earth surface dynamics across scales: from long-term landscape evolution to short-term interactions and future applications” (conference session at EGU GA) | Co-convener |
+| 2018 | “Actio-Reactio; from subducting slabs to shaping the surface” (conference session at EGU GA) | Co-convener |
+| 2016 | "The Sustainable Development Goals: Strategies for Eradicating Global Poverty” (workshop at EGU GA) | Co-convener |
+
+
+
+
+</br>
+
 ## University Service (Only Recent; Selected)
 
 | Years | Project or Organisation | Role |
-| :- | :----- | :--- |
-| 2025 -- | [Climate and Environmental Science MSc](https://www.gla.ac.uk/postgraduate/taught/climateenvironmentalscience/) programme | Programme Lead and Co-Developer |
+| :- | :--------- | :--- |
+| 2025 -- | [Climate and Environmental Science MSc](https://www.gla.ac.uk/postgraduate/taught/climateenvironmentalscience/) programme | Programme Lead and Developer |
 | 2025 -- | GenAI strategy group for learning and teaching at the College of Science and Engineering | Member |
 | 2024 -- | *Earth, Climate and Biosphere Dynamics* Research Cluster | Co-Lead |
 | 2024 -- | [ExaGEO](https://www.exageo.org/) doctoral training programme | Manager and Co-Investigator |
 | 2024 -- | *Maths/Stats meets GeoX*, interdepartmental initiative | Co-Lead |
 | 2024 | Environmental Futures: Sustinable Systems MSc programme | Co-Lead |
-| 2023 -- 2025 | Department website (*School for Geographical & Earth Sciences*) | Content manager |
+| 2023 -- | Department website (*School for Geographical & Earth Sciences*) | Content manager |
 | 2015 -- 2022 | HPC software infrastructure for Earth system modelling | Maintainer |
 
 
 
-# <span style="color:#38967c"> Outreach </span>
+
+</br>
+
+# <span style="color:#38967c"> Outreach and Scholarship </span>
 
 ## Service Roles
 
@@ -202,6 +259,10 @@ execute:
 | 2015 -- | [ParsQuake NGO](https://parsquake.org/) | Member, Developer |
 
 
+
+
+</br>
+
 ## In Press and Professional Blogs (Examples)
 
 * 2022 - "Earth’s Climate is not in Equilibrium", *Spektrum (Germ. ed. Scientific American)* ([Read more](https://www.spektrum.de/news/palaeoklima-das-erdklima-ist-definitiv-nicht-im-gleichgewicht/2073378))
@@ -209,12 +270,26 @@ execute:
 * 2020 - "Lake to Desert to Lake", *Attempto!* ([Download](files/attempto_AppelMutz.pdf))
 * 2016 - Exploring the Sustainable Development Goals at the University of Tübingen ([Read more](https://blogs.egu.eu/network/gfgd/2016/02/08/guest-blog-exploring-the-sustainable-development-goals-at-the-university-of-tubingen-germany/))
 
+
+
+
+</br>
+
 ## Public Talks and Videos (Examples)
 
+* 2024 -- now - Leader of EGU’s Teacher-Scientist Pairing Scheme to connect school teachers and scientist to co-design and record lessons together
+* 2024 - "Palaeoclimate: What we can learn from climates of the past", VHS Inzighofen, Germany
+* 2022 - [Video lesson on Proxies in Palaeoclimatology](https://www.youtube.com/watch?v=_A0O8qacHok)
 * 2022 - “On Climate Change, Climate Mitigation and the Prisoner's Dilemma", Reutlingen
 * 2021 - Video for [GeoPark Maestrazgo](https://geoparques.es/en/portfolio_page/maestrazgo-en/), Producer
 * 2021 - “Caught in the web of climate change: On melting, sliding and running away”, Reutlingen
 * 2019 - [UN Forum on Science, Technology and Innovation, NY (USA)](https://drive.google.com/file/d/1rpEx8PtRWS38KoznPGlGt7k911X1WrmS/view), Co-author of GfGD statement
+* 2018 - [10 Earthquake video lessons for schools](https://parsquake.org/resources.html) published and tested  ([Read more](https://doi.org/10.5194/gc-4-281-2021))
+
+
+
+
+</br>
 
 ## Articles and Conference Abstracts
 
@@ -225,10 +300,13 @@ execute:
 
 
 
+</br>
+
 # <span style="color:#38967c"> Publications </span>
 
-
 ## Peer-Reviewed Articles
+
+1. Ballian, A., Meijers, M.J., Boateng, D., Cojan, I., Mutz, S.G., Ehlers, T.A., Mulch, A., (2026). Oxygen isotopic composition of Miocene meteoric water (d18Ow) in Alpine foreland basins, Geochemistry, Geophysics, Geosystems. [doi.org/10.1029/2025GC012854](https://doi.org/10.1029/2025GC012854)
 
 1. Mutz, S. G., (2025). FSML – A Modern Fortran Statistics and Machine Learning Library. Journal of Open Source Software, 10(116), 9058, [https://doi.org/10.21105/joss.09058](https://doi.org/10.21105/joss.09058)
 
@@ -281,6 +359,8 @@ execute:
 1. Mutz S.G., Paeth H., Winkler S. (2015). Modelling of future mass balance changes of Norwegian glaciers by application of a dynamical-statistical model. Climate Dynamics. [https://doi.org/10.1007/s00382-015-2663-5](https://doi.org/10.1007/s00382-015-2663-5)
 
 
+</br>
+
 ## Data and Monographs
 
 1. Mutz S.G. (2025). FSML – A Modern Fortran Statistics and Machine Learning Library. Zenodo. [https://doi.org/10.5281/zenodo.17872188](https://doi.org/10.5281/zenodo.17872188)
@@ -307,6 +387,8 @@ execute:
 
 1. Mutz S.G. (2015). Dynamic Statistical Modelling of Climate-Related Mass Balance Changes in Norway. Universität Würzburg, Würzburg (Germany).
 
+
+</br>
 
 ## Conference Presentations/Abstracts (selected)
 

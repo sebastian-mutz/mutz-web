@@ -68,7 +68,7 @@
 | :-- | :-- | :-- |
 | 2025 | [<span style="color:#388096">Fortran-lang</span>](https://fortran-lang.org/) at [<span style="color:#388096">Google Summer of Code</span>](https://summerofcode.withgoogle.com/) | Mentor |
 | 2024 -- | [<span style="color:#388096">Exascale Computing for Earth, Environmental, and Sustainability Solutions</span>](https://www.exageo.org/) (ExaGEO) | Manager / Executive Committee Member |
-| 2024 -- | [<span style="color:#388096">Earth System Modelling and Artificial Intelligence</span>](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) (SAGES) | Executive Committee Member |
+| 2024 -- | [<span style="color:#388096">Earth System Modelling and Artificial Intelligence</span>](https://sages.ac.uk/research/fora/earth-system-modelling-artificial-intelligence-esm-ai/) (SAGES) | Steering Committee Member |
 | 2023 -- | [<span style="color:#388096">Earth System Dynamics</span>](https://www.earth-system-dynamics.net/) Editorial Board | Associate Editor |
 | 2022 -- | [<span style="color:#388096">Geoscience Communication</span>](https://www.geoscience-communication.net/) Editorial Board | Associate Editor |
 | 2022, 2023 | [<span style="color:#388096">EGU’s mentoring programme</span>](https://www.egu.eu/outreach/mentoring/)| Mentor |
@@ -81,20 +81,20 @@
 
 | Years | Project or Organisation | Role |
 | :-- | :-- | :-- |
-| 2025 -- | [<span style="color:#388096">Climate and Environmental Science MSc</span>](https://www.gla.ac.uk/postgraduate/taught/climateenvironmentalscience/) programme | Convener and Co-Developer |
+| 2025 -- | [<span style="color:#388096">Climate and Environmental Science MSc</span>](https://www.gla.ac.uk/postgraduate/taught/climateenvironmentalscience/) programme | Convener and Developer |
 | 2024 -- | [<span style="color:#388096">ExaGEO</span>](https://www.exageo.org/) doctoral training programme | Manager and Co-Investigator |
 | 2024 -- | *Maths/Stats meets GeoX*, interdepartmental initiative | Co-Leader |
 | 2024 | Environmental Futures: Sustinable Systems MSc programme | Convener |
 
 
-### Outreach Roles
+### Outreach Roles (Examples)
 
 | Years | Project or Organisation | Role |
 | :-- | :-- | :-- |
 | 2024 -- | [<span style="color:#388096">EGU Outreach Committee</span>](https://www.egu.eu/outreach/) | Member |
 | 2024 -- | [<span style="color:#388096">EGU Teacher-Scientist Pairing Scheme</span>](https://www.egu.eu/news/1205/egus-teacher-scientist-pairing-scheme-2025-apply-now-to-co-create-a-video-lesson-for-schools/) | Leader, Co-Developer |
 | 2021 -- | [<span style="color:#388096">INTEGRATE Project</span>](http://integrate.mutz.science) | Leader, Developer |
-| 2015 -- | [<span style="color:#388096">ParsQuake NGO</span>](https://parsquake.org/) | Member, Developer |
+| 2015 -- | [<span style="color:#388096">ParsQuake NGO</span>](https://parsquake.org/) | Member, Co-Developer of Education Materials |
 
 
 
@@ -122,8 +122,6 @@
 
 1. Ring, S. J., Mutz, S. G., Ehlers, T. A. (2022). Cenozoic proxy constraints on Earth system sensitivity to greenhouse gases. Paleoceanography and Paleoclimatology, 37, e2021PA004364. [https://doi.org/10.1029/2021PA004364](https://doi.org/10.1029/2021PA004364)
 
-1. Mutz S.G., *Scherrer S., *Muceniece I., Ehlers T.A., (2021). Twenty-first Century Regional Temperature Response in Chile Based on Dynamical Empirical-Statistical Downscaling . Climate Dynamics. [https://doi.org/10.1007/s00382-020-05620-9](https://doi.org/10.1007/s00382-020-05620-9)
-
 
 ### Example Conference Presentations/Abstracts
 
@@ -136,6 +134,4 @@
 1. Mutz S.G. and Ehlers T.A. (2020). On the Synergistic Climatic Effects of Covarying Major Mountain Range Topographies. EGU GA 2020.
 
 1. Mohadjer S, Mutz S.G., Kemp M., Gill S., Ischuk A., Ehlers T.A. (2020) Paired teaching approach to earthquake education: a cross-country comparison between Dushanbe, Tajikistan and London, United Kingdom. EGU GA 2020.
-
-1. Mutz S.G., Scherrer S., Muceniece I., Ehlers T.A. (2019). Towards a dynamic hybrid of parametric and non-parametric empirical downscaling models for climate in Chile. AK Klima 2019.
 

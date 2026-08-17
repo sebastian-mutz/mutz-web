@@ -57,7 +57,7 @@ An Interdisciplinary Introduction to Climate Change: A 10-week structured, accre
 
 | Contributions | Taught | Level | Semester | Language |
 | :----- | :-- | :-- | :-- | :-- |
-| Developer of climate lectures and instructor | 2023 -- | All | 1 | English |
+| Developer of climate lectures and instructor | 2023 -- 2025 | All | 1 | English |
 :::
 :::
 
@@ -78,7 +78,26 @@ The course is offered in the programmes [Climate and Environmental Science MSc](
 
 | Contributions | Taught | Level | Semester | Language |
 | :----- | :-- | :-- | :-- | :-- |
-| Facilitator | 2025 -- | 5 | 1 and 2 | English |
+| Facilitator and instructor | 2025 -- | 5 | 1 and 2 | English |
+:::
+:::
+
+
+
+## Research Skills (GEOG4025)
+
+::: columns
+::: {.column width="20%"}
+![](img/uofg_cc0.jpg){width="80%" style="border-radius:4px;"}
+:::
+
+::: {.column width="80%"}
+**Description** --
+The aim of this course is to provide training for student to conduct independent geographical research.
+
+| Contributions | Taught | Level | Semester | Language |
+| :----- | :-- | :-- | :-- | :-- |
+| Instructor | 2026 -- | 4 | 2 | English |
 :::
 :::
 
@@ -114,6 +133,6 @@ The course is offered in the programme [Geography](https://www.gla.ac.uk/undergr
 
 ::: {.column width="80%"}
 **Description** --
-S.G. Mutz also assists as an instructor for different field classes (e.g., Glen Ogle, Spireslack), teaching geomorphology, sedimentology and how the landscape is modified by humans/industry.
+S.G. Mutz also assists as an instructor for different field classes (e.g., Lake District, Glen Ogle, Spireslack), teaching geomorphology, sedimentology and how the landscape is modified by humans/industry.
 :::
 :::
