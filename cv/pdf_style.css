@@ -64,7 +64,6 @@ span > code {
 
 
 /* fully styled PDF */
-
   table {
     border-collapse: collapse;
     width: 100%;
@@ -81,4 +80,3 @@ span > code {
   .table-wrapper {
     overflow: visible !important;
   }
-
