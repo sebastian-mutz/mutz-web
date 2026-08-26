@@ -63,20 +63,43 @@ span > code {
 
 
 
-/* fully styled PDF */
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    font-size: 12pt;
-  }
-  th, td {
-    border: 0.5pt solid #cccccc;  /* <-- absolute, tiny border */
-    padding: 3pt 4pt;           /* reduce padding for paper */
-  }
-  thead {
-    background-color: #f0f0f0 !important;
-    -webkit-print-color-adjust: exact;
-  }
-  .table-wrapper {
-    overflow: visible !important;
-  }
+/* styled PDF */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12pt;
+  page-break-inside: auto;
+}
+
+thead {
+  display: table-header-group !important;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+thead th {
+  background-color: #f0f0f0 !important;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+tbody {
+  display: table-row-group;
+}
+
+tr {
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+
+th,
+td {
+  border: 0.5pt solid #cccccc;
+  padding: 3pt 4pt;
+}
+
+.table-wrapper {
+  overflow: visible !important;
+}
+
+

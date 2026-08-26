@@ -15,25 +15,16 @@ execute:
 
 # <span style="color:#38967c"> Basic Information </span>
 
-::: columns
-::: {.column width="40%"}
 
-### Institute
-
-| | |
+| Institute | |
 | :- | :---- |
 | Position | Senior Lecturer (Associate Professor) |
 | Affiliation | University of Glasgow, School of Geographical and Earth Sciences, UK |
-:::
 
-::: {.column width="5%"}
-:::
 
-::: {.column width="55%"}
+</br>
 
-### Web
-
-| | |
+| Web | |
 | :- | :---- |
 | ORCID | [0000-0001-8180-6150](https://orcid.org/0000-0001-8180-6150) |
 | GitHub | [@sebastian-mutz](https://github.com/sebastian-mutz) |
@@ -43,8 +34,6 @@ execute:
 | Research lab | [mutz.science](https://mutz.science/) |
 | E-mail | [sebastian.mutz@glasgow.ac.uk](mailto:sebastian.mutz@glasgow.ac.uk) |
 
-:::
-:::
 
 
 
@@ -305,6 +294,8 @@ execute:
 # <span style="color:#38967c"> Publications </span>
 
 ## Peer-Reviewed Articles
+
+1. Eizenhöfer, P., McQuarrie, N., Ghoshal, S., Mutz. S.G., Ehlers, T.A., (2026). Drivers of Topography in Fold-Thrust Belts: A Perspective from Central Nepal. Earth and Planetary Science Letters.
 
 1. Ballian, A., Meijers, M.J., Boateng, D., Cojan, I., Mutz, S.G., Ehlers, T.A., Mulch, A., (2026). Oxygen isotopic composition of Miocene meteoric water (d18Ow) in Alpine foreland basins, Geochemistry, Geophysics, Geosystems. [doi.org/10.1029/2025GC012854](https://doi.org/10.1029/2025GC012854)
 
