@@ -21,7 +21,7 @@ from: markdown+emoji
 ---
 
 ::: {.callout-note}
-The blog was first published on Jack Atkinson's website [here](https://jackatkinson.net/post/fortran_egu26/).
+The blog post was first published on Jack Atkinson's website [here](https://jackatkinson.net/post/fortran_egu26/).
 :::
 
 # Introduction
