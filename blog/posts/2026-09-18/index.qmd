@@ -1,0 +1,77 @@
+---
+title: "Fortran at EGU 2026 – Making the Community More Visible"
+description: "Lessons from a Fortran networking event at EGU26."
+author:
+  - name: Jack Atkinson
+    orcid: 0000-0001-5001-4812
+    affiliation: University of Cambridge, UK
+  - name: Sebastian G. Mutz
+    orcid: 0000-0001-8180-6150
+    affiliation: University of Glasgow, Scotland
+  - name: Petra Seibert
+    affiliation: University of Vienna and BOKU University, AT
+  - name: Sebastian Müller
+    orcid: 0000-0001-9060-4008
+    affiliation: Helmholtz Centre for Environmental Research DE
+date: 2026-09-18
+categories: [Fortran, software, egu, community, conference]
+image: img/egu.png
+draft: false
+from: markdown+emoji
+---
+
+::: {.callout-note}
+The blog was first published on Jack Atkinson's website [here](https://jackatkinson.net/post/fortran_egu26/).
+:::
+
+# Introduction
+
+At this year’s EGU (2026) Sebastian Mutz organised an informal lunch for people working with Fortran. The premise was simple - get some Fortran users in a room and see what happens when they talk to each other. This post is an attempt to share what came up a little wider than the room.
+
+It is a common experience of those working with Fortran to carry out great work without being aware of each other. Fortran communities tend not to advertise their developments - in contrast to, say, Python - and the result is low community awareness, low software visibility, and a lot of missed opportunities for coordinated effort. Initiatives like [JOSS (Journal of Open Source Software)](https://joss.theoj.org/) and [Fortran-lang](https://fortran-lang.org/) (including the [Discourse](https://fortran-lang.discourse.group/)) help, but only if you already know about them. The lunch felt like a small step towards doing something about that in the geoscience community.
+
+Much of the conversation circled around a few interconnected themes: the challenge of keeping Fortran in teaching and recruitment, the difficulty of building a modern ecosystem around a language with a small and scattered user base, and - threading through all of it - the question of what the community can do to make itself more visible, both to newcomers and to itself.
+
+# Teaching and recruitment
+
+MeteoSwiss shared a sobering view: the future of Fortran there is uncertain - not because of issues with the language, but because they simply cannot recruit enough qualified people. The problem starts at university. Fortran, like other languages, struggles to keep a foothold in teaching; where it is offered it is often one option among many. Python usually dominates, despite the technical debt this can create. An observation that resonated: Python is easy to start with, but students often fail to internalise important concepts in programming - data types, control flow, memory management. Vienna was noted as having a dedicated Fortran course, and EuroHPC provides a good set of courses, but these are exceptions.
+
+The conversation about teaching led naturally to hiring. The general view was: recruit a good Research Software Engineer or coder, even if they do not know Fortran; the language can be taught. The harder problem is finding people willing to learn it in the first place.
+
+# The ecosystem gap and what it means for newcomers
+
+Fortran’s module ecosystem lagged at a critical time, and Python filled the space. The modules that do exist for Fortran are volunteer-developed, harder to use, and slower to develop. This is a structural problem, and it has consequences for anyone trying to start with the language today.
+
+Take testing. We discussed [pFUnit](https://github.com/Goddard-Fortran-Ecosystem/pFUnit) , and some of the challenges in using it - poor or absent documentation, generation of a lot of code, sometimes troublesome dependencies. [Fortuno](https://github.com/fortuno-repos/fortuno) was mentioned as a pure-Fortran alternative, though it is still somewhat fledgling. Stepping back from the individual issues, the existence of two such frameworks is not a problem in itself; the problem is the lack of clear community recommendations, which leaves newcomers unsure which way to go.
+
+This pattern repeats across the ecosystem. Simple questions - “when reading data, do I use a `DATA` statement; hardcode into the source, perhaps as parameters; or parse the file?” - have no canonical answers. Even the intrinsic functions lack complete examples in the documentation. One attendee noted they were surprised by how easy Fortran was to learn, but that navigating compiler support for different language features remains a non-obvious challenge.
+
+The group agreed there is a need for an archive of practical examples. The Fortran-lang website and Discourse are a start, but they are not where people naturally look. Python has endless tutorials and Stack Overflow answers; Fortran has a smaller pool of both questions and answers.
+
+# Silos between fields
+
+A distinct but related problem is the lack of communication between fields that rely heavily on Fortran - ourselves in geoscience, but also other fields like electronic structure. Rather than talk to each other about common problems, some organisations are starting to ditch Fortran altogether. The notion of a “Fortran index” was raised: a way for the community to collate or share data, tools, and practices across disciplinary boundaries. The [package list on the Fortran-lang website](https://fortran-lang.org/packages/), the resources on the [Fortran Wiki](https://fortranwiki.org/fortran/show/HomePage), and initiatives like [Fortran Index](https://fortran-index.github.io/fortran-index/) are addressing this, but they lack visibility and often remain unknown to newcomers.
+
+Several other points from the discussion fit this theme. The group was divided on whether integer variables should follow the `i-n` convention or be descriptive - a reminder of the range of experiences in the room, from punched cards to GUI-based IDEs. Standards are recognised as important but hard to impose, and there is a growing set of tooling to help. Beyond static analysis tools like the recent [Fortitude](https://github.com/PlasmaFAIR/fortitude) linter, the discussion touched on namelist handling with [nml-tools](https://github.com/MuellerSeb/nml-tools/), IDE integration via the [fortls](https://github.com/fortran-lang/fortls) language server (used by the modern-Fortran VS Code extension), PyTorch and Machine Learning interoperability with [FTorch](https://github.com/Cambridge-ICCS/FTorch), and source-formatting tools such as [fypp](https://github.com/aradi/fypp), [findent](https://github.com/wvermin/findent), and [fprettify](https://github.com/fortran-lang/fprettify). That these were even on the table is a sign that the Fortran community is alive and in interaction.
+
+# A note on AI agents
+
+As is inevitable these days, the conversation eventually came round to AI agents for Fortran. Claude was mentioned as working surprisingly well for spotting bugs in existing code - especially when an `AGENTS.md` file was provided describing code standards.
+
+# Technical takeaways
+
+A few practical points that did not fit neatly into the themes above, but are worth sharing:
+
+- **GPU support**: OpenMP has helped significantly here recently.
+- **Always run tests with temporary array runtime warnings enabled**.
+- **The NetCDF Fortran library needs a makeover**. Currently you cannot pass a 64-bit integer as a dimension because the interface casts it to 32-bit.
+- **Weather operations insist on bit-level reproducibility** due to non-linear equations, whilst electronic structure does not share this concern, provided “we always converge to the same answer.”
+
+# Closing
+
+The lunch was a reminder that the Fortran community is still here, still alive, and keen to collaborate. Thanks to Sebastian for organising it, everyone who turned up and made it a discussion worth writing about, and everyone who assisted in authoring this blog post.
+
+If you have any comments or suggestions please do get in touch.
+
+
+
